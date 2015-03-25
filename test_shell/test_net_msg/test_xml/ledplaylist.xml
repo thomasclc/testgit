@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><push dmbversion="1.0"
+sequence="terminal9000000311" type="server"><ledplaylist
+date="2014-01-08" key="a2e4822a98337283e39f7b60acf85ec9"> <screen
+name="ledstyle" id="ledstyle" width="1024" height="768" rotator="0"
+fullscreen="false"> <surface id="led_surface1" level="119" x="0" y="0"
+width="16" height="16" hide="true" alpha="255" /> </screen> </ledplaylist></push>

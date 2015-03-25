@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="UTF-8"?><push dmbversion="1.0"
+sequence="terminal123456789" type="server"><playlist date="2014-03-25"
+key="820e5786827d237c5e212bc870253973"> <unit id="unit1"
+name="日期时间格式1" playmode="CIRCLE"
+style="screen6_54421fe3b3df6a5e973d64fa1e215cf7"
+key="e35e39c54386ccfe8bff9a1d94918944" startdate="1999-01-01"
+enddate="2037-01-01"> <playtime> <time starttime="00:00:00"
+endtime="23:59:59" playcount="1" /> </playtime> <surface id="21"
+name="日期区(1)"> <task id="DATEtask" name="DATEtask" type="DATE"
+freq="1" key="ewqraewfasfdxzcaewraxxcfq"> <date> <text bgcolor="00000000"
+fgcolor="ffFFFFFF" fontsize="36"
+fontname="/root/dmb/programm/font/3e20b41f97836e43b9f5d13fab964397.ttf"
+format="yyyy年MM月dd日" timecount="10" /> </date> </task> </surface> <surface
+id="20" master="true" name="[主播放区]播放区(1)"> <task id="1"
+name="1.JPG_1" type="PICPAGE" timecount="10.0" freq="1"
+key="89c996551391ea68fa6960c25abac11c" stufftype="IMAGE"> <picpage> <img
+href="/stufflib/IMAGE/c36f3294e26767d9419161d377df7e3c_742_565.png"
+md5="4c347cba45a4467c89cc43659c72e604" filename="1.JPG" filesize="713651"
+showmode="cover" timecount="10" speed="1" /> </picpage> </task> </surface>
+<surface id="18" name="隐藏区"> </surface> <surface id="19"
+name="日期区(2)"> <task id="DATEtask" name="DATEtask" type="DATE"
+freq="1" key="ewqraewfasfdxzcaewraxxcfq"> <date> <text bgcolor="00000000"
+fgcolor="ffFFFFFF" fontsize="36"
+fontname="/root/dmb/programm/font/3e20b41f97836e43b9f5d13fab964397.ttf"
+format="yyyy-MM-dd" timecount="10" /> </date> </task> </surface> <surface
+id="22" name="时间区"> <task id="TIMEtask" name="TIMEtask" type="TIME"
+freq="1" key="ewqraewfasfdxzcaewraxxcfq"> <time> <text bgcolor="00000000"
+fgcolor="ffFFFFFF" fontsize="36"
+fontname="/root/dmb/programm/font/3e20b41f97836e43b9f5d13fab964397.ttf"
+format="HH:mm:ss" timecount="10" /> </time> </task> </surface> </unit> <unit
+id="unit2" name="日期时间格式2" playmode="CIRCLE"
+style="screen7_bfd2651a48c0526442989476c5a0010e"
+key="f220fa0f98ccdfa64054a6d551b4ad30" startdate="1999-01-01"
+enddate="2037-01-01"> <playtime> <time starttime="00:00:00"
+endtime="23:59:59" playcount="1" /> </playtime> <surface id="24"
+name="日期区(2)"> <task id="DATEtask" name="DATEtask" type="DATE"
+freq="1" key="ewqraewfasfdxzcaewraxxcfq"> <date> <text bgcolor="00000000"
+fgcolor="ffFFFFFF" fontsize="36"
+fontname="/root/dmb/programm/font/3e20b41f97836e43b9f5d13fab964397.ttf"
+format="yyyy.MM.dd" timecount="10" /> </date> </task> </surface> <surface
+id="26" master="true" name="[主播放区]播放区(1)"> <task id="2"
+name="2.JPG_2" type="PICPAGE" timecount="10.0" freq="1"
+key="8db210e830b257c4975664d32639c92e" stufftype="IMAGE"> <picpage> <img
+href="/stufflib/IMAGE/1a6fc0f8bd76dc14171d7b40000859d2_742_565.png"
+md5="feb15ae1f9af10ce373b942b97b10cfb" filename="2.JPG" filesize="712108"
+showmode="cover" timecount="10" speed="1" /> </picpage> </task> </surface>
+<surface id="27" name="时间区"> <task id="TIMEtask" name="TIMEtask"
+type="TIME" freq="1" key="ewqraewfasfdxzcaewraxxcfq"> <time> <text
+bgcolor="00000000" fgcolor="ffFFFFFF" fontsize="36"
+fontname="/root/dmb/programm/font/3e20b41f97836e43b9f5d13fab964397.ttf"
+format="H:mm:ss" timecount="10" /> </time> </task> </surface> <surface
+id="23" name="隐藏区"> </surface> <surface id="25" name="日期区(1)">
+<task id="DATEtask" name="DATEtask" type="DATE" freq="1"
+key="ewqraewfasfdxzcaewraxxcfq"> <date> <text bgcolor="00000000"
+fgcolor="ffFFFFFF" fontsize="36"
+fontname="/root/dmb/programm/font/3e20b41f97836e43b9f5d13fab964397.ttf"
+format="yyyy/MM/dd" timecount="10" /> </date> </task> </surface> </unit> <unit
+id="unit8" name="时间日期格式3" playmode="CIRCLE"
+style="screen8_cfb9c09943004f3f9540e91840ab893b"
+key="c0e27400bb28ca8762e592e9c3ceb702" startdate="1999-01-01"
+enddate="2037-01-01"> <playtime> <time starttime="00:00:00"
+endtime="23:59:59" playcount="1" /> </playtime> <surface id="30"
+name="日期区(2)"> <task id="DATEtask" name="DATEtask" type="DATE"
+freq="1" key="ewqraewfasfdxzcaewraxxcfq"> <date> <text bgcolor="00000000"
+fgcolor="ffFFFFFF" fontsize="36"
+fontname="/root/dmb/programm/font/3e20b41f97836e43b9f5d13fab964397.ttf"
+format="yyyy-M-d" timecount="10" /> </date> </task> </surface> <surface
+id="31" master="true" name="[主播放区]播放区(1)"> <task id="13"
+name="3.JPG_1" type="PICPAGE" timecount="10.0" freq="1"
+key="ae5fd81d75ef4904486503ae46db3af2" stufftype="IMAGE"> <picpage> <img
+href="/stufflib/IMAGE/5fc90e6a8223bda73beabf6a03d1785a_742_564.png"
+md5="fab1cd9d5b66857b4a42e3e5f57d4533" filename="3.JPG" filesize="714921"
+showmode="cover" timecount="10" speed="1" /> </picpage> </task> </surface>
+<surface id="32" name="日期区(1)"> <task id="DATEtask" name="DATEtask"
+type="DATE" freq="1" key="ewqraewfasfdxzcaewraxxcfq"> <date> <text
+bgcolor="00000000" fgcolor="ffFFFFFF" fontsize="36"
+fontname="/root/dmb/programm/font/3e20b41f97836e43b9f5d13fab964397.ttf"
+format="yyyy年M月d日" timecount="10" /> </date> </task> </surface> <surface
+id="29" name="时间区"> <task id="TIMEtask" name="TIMEtask" type="TIME"
+freq="1" key="ewqraewfasfdxzcaewraxxcfq"> <time> <text bgcolor="00000000"
+fgcolor="ffFFFFFF" fontsize="36"
+fontname="/root/dmb/programm/font/3e20b41f97836e43b9f5d13fab964397.ttf"
+format="#上午/下午# hh:mm:ss" timecount="10" /> </time> </task> </surface>
+<surface id="28" name="隐藏区"> </surface> </unit> <unit id="unit3"
+name="时间日期格式4" playmode="CIRCLE"
+style="screen9_0e6f31e385cb22faa6c64c8e1649703d"
+key="91bbd55e3d9d1021d8ef8db2b466bb0f" startdate="1999-01-01"
+enddate="2037-01-01"> <playtime> <time starttime="00:00:00"
+endtime="23:59:59" playcount="1" /> </playtime> <surface id="34"
+name="时间区"> <task id="TIMEtask" name="TIMEtask" type="TIME"
+freq="1" key="ewqraewfasfdxzcaewraxxcfq"> <time> <text bgcolor="00000000"
+fgcolor="ffFFFFFF" fontsize="36"
+fontname="/root/dmb/programm/font/3e20b41f97836e43b9f5d13fab964397.ttf"
+format="#上午/下午# h:mm:ss" timecount="10" /> </time> </task> </surface>
+<surface id="35" name="日期区(2)"> <task id="DATEtask" name="DATEtask"
+type="DATE" freq="1" key="ewqraewfasfdxzcaewraxxcfq"> <date> <text
+bgcolor="00000000" fgcolor="ffFFFFFF" fontsize="36"
+fontname="/root/dmb/programm/font/3e20b41f97836e43b9f5d13fab964397.ttf"
+format="yyyy.M.d" timecount="10" /> </date> </task> </surface> <surface
+id="33" name="隐藏区"> </surface> <surface id="36" master="true"
+name="[主播放区]播放区(1)"> <task id="9" name="4.JPG_1"
+type="PICPAGE" timecount="10.0" freq="1"
+key="fd1bc79c6d002f628e81a02705faa5b6" stufftype="IMAGE"> <picpage> <img
+href="/stufflib/IMAGE/421791648dcd245aaa644655c79ab1ae_742_564.png"
+md5="fe9597000bcc363e1b0a4d38e37e150f" filename="4.JPG" filesize="751553"
+showmode="cover" timecount="10" speed="1" /> </picpage> </task> </surface>
+<surface id="37" name="日期区(1)"> <task id="DATEtask" name="DATEtask"
+type="DATE" freq="1" key="ewqraewfasfdxzcaewraxxcfq"> <date> <text
+bgcolor="00000000" fgcolor="ffFFFFFF" fontsize="36"
+fontname="/root/dmb/programm/font/3e20b41f97836e43b9f5d13fab964397.ttf"
+format="yyyy/M/d" timecount="10" /> </date> </task> </surface> </unit> <unit
+id="unit4" name="时间日期格式5" playmode="CIRCLE"
+style="screen10_ba2c41a1423e8539bdb16737ff634fc5"
+key="b4c8a50824e7f93dc299425654d9a46d" startdate="1999-01-01"
+enddate="2037-01-01"> <playtime> <time starttime="00:00:00"
+endtime="23:59:59" playcount="1" /> </playtime> <surface id="38"
+name="隐藏区"> </surface> <surface id="40" name="日期区(2)"> <task
+id="DATEtask" name="DATEtask" type="DATE" freq="1"
+key="ewqraewfasfdxzcaewraxxcfq"> <date> <text bgcolor="00000000"
+fgcolor="ffFFFFFF" fontsize="36"
+fontname="/root/dmb/programm/font/3e20b41f97836e43b9f5d13fab964397.ttf"
+format="yy-M-d" timecount="10" /> </date> </task> </surface> <surface
+id="41" master="true" name="[主播放区]播放区(1)"> <task id="10"
+name="5.JPG_1" type="PICPAGE" timecount="10.0" freq="1"
+key="cf1f69f65664fec69ff94982ee2d1355" stufftype="IMAGE"> <picpage> <img
+href="/stufflib/IMAGE/1ef90c2ee498c0389ee8267dcb99a225_742_564.png"
+md5="ce951142e645e3cc9287a86e947e6fc4" filename="5.JPG" filesize="749377"
+showmode="cover" timecount="10" speed="1" /> </picpage> </task> </surface>
+<surface id="42" name="日期区(1)"> <task id="DATEtask" name="DATEtask"
+type="DATE" freq="1" key="ewqraewfasfdxzcaewraxxcfq"> <date> <text
+bgcolor="00000000" fgcolor="ffFFFFFF" fontsize="36"
+fontname="/root/dmb/programm/font/3e20b41f97836e43b9f5d13fab964397.ttf"
+format="yy年M月d日" timecount="10" /> </date> </task> </surface> <surface
+id="39" name="时间区"> <task id="TIMEtask" name="TIMEtask" type="TIME"
+freq="1" key="ewqraewfasfdxzcaewraxxcfq"> <time> <text bgcolor="00000000"
+fgcolor="ffFFFFFF" fontsize="36"
+fontname="/root/dmb/programm/font/3e20b41f97836e43b9f5d13fab964397.ttf"
+format="#AM/PM# hh:mm:ss" timecount="10" /> </time> </task> </surface> </unit>
+<unit id="unit5" name="时间日期格式6" playmode="CIRCLE"
+style="screen11_73968fef4b989b9bf06857b05d5413e9"
+key="286cd7fee87e516115efec78dee96f2b" startdate="1999-01-01"
+enddate="2037-01-01"> <playtime> <time starttime="00:00:00"
+endtime="23:59:59" playcount="1" /> </playtime> <surface id="45"
+name="日期区(2)"> <task id="DATEtask" name="DATEtask" type="DATE"
+freq="1" key="ewqraewfasfdxzcaewraxxcfq"> <date> <text bgcolor="00000000"
+fgcolor="ffFFFFFF" fontsize="36"
+fontname="/root/dmb/programm/font/3e20b41f97836e43b9f5d13fab964397.ttf"
+format="yy.M.d" timecount="10" /> </date> </task> </surface> <surface
+id="43" name="隐藏区"> </surface> <surface id="47" name="日期区(1)">
+<task id="DATEtask" name="DATEtask" type="DATE" freq="1"
+key="ewqraewfasfdxzcaewraxxcfq"> <date> <text bgcolor="00000000"
+fgcolor="ffFFFFFF" fontsize="36"
+fontname="/root/dmb/programm/font/3e20b41f97836e43b9f5d13fab964397.ttf"
+format="yy/M/d" timecount="10" /> </date> </task> </surface> <surface
+id="44" name="时间区"> <task id="TIMEtask" name="TIMEtask" type="TIME"
+freq="1" key="ewqraewfasfdxzcaewraxxcfq"> <time> <text bgcolor="00000000"
+fgcolor="ffFFFFFF" fontsize="36"
+fontname="/root/dmb/programm/font/3e20b41f97836e43b9f5d13fab964397.ttf"
+format="#AM/PM# h:mm:ss" timecount="10" /> </time> </task> </surface> <surface
+id="46" master="true" name="[主播放区]播放区(1)"> <task id="11"
+name="6.JPG_1" type="PICPAGE" timecount="10.0" freq="1"
+key="f90b4bef10e8434dfaf5bc28e3885d47" stufftype="IMAGE"> <picpage> <img
+href="/stufflib/IMAGE/d2c3fbf2a808fc56745f6d55098671f3_742_564.png"
+md5="6f18d74024b5d641d52c925213d4c726" filename="6.JPG" filesize="779325"
+showmode="cover" timecount="10" speed="1" /> </picpage> </task> </surface>
+</unit> <unit id="unit6" name="时间日期格式7" playmode="CIRCLE"
+style="screen12_5c038aba974f2c26bc221ed4805a81cc"
+key="95487b123c493fbe506b2c077dfc8352" startdate="2014-03-25"
+enddate="2037-01-01"> <playtime> <time starttime="00:00:00"
+endtime="23:59:59" playcount="1" /> </playtime> <surface id="48"
+name="隐藏区"> </surface> <surface id="52" name="日期区(1)"> <task
+id="DATEtask" name="DATEtask" type="DATE" freq="1"
+key="ewqraewfasfdxzcaewraxxcfq"> <date> <text bgcolor="00000000"
+fgcolor="ffFFFFFF" fontsize="36"
+fontname="/root/dmb/programm/font/3e20b41f97836e43b9f5d13fab964397.ttf"
+format="农历" timecount="10" /> </date> </task> </surface> <surface
+id="51" master="true" name="[主播放区]播放区(1)"> <task id="12"
+name="7.JPG_1" type="PICPAGE" timecount="10.0" freq="1"
+key="9aba095e90d974dab04ba5a2a253a91e" stufftype="IMAGE"> <picpage> <img
+href="/stufflib/IMAGE/a0ca19304cd8ab9330032c0f6618a9c4_742_564.png"
+md5="0c5e65b2f4daa0ed408d96e4a5e4af59" filename="7.JPG" filesize="725868"
+showmode="cover" timecount="10" speed="1" /> </picpage> </task> </surface>
+<surface id="49" name="时间区"> <task id="TIMEtask" name="TIMEtask"
+type="TIME" freq="1" key="ewqraewfasfdxzcaewraxxcfq"> <time> <text
+bgcolor="00000000" fgcolor="ffFFFFFF" fontsize="36"
+fontname="/root/dmb/programm/font/3e20b41f97836e43b9f5d13fab964397.ttf"
+format="#AM/PM# h:mm:ss" timecount="10" /> </time> </task> </surface> <surface
+id="50" name="日期区(2)"> <task id="DATEtask" name="DATEtask"
+type="DATE" freq="1" key="ewqraewfasfdxzcaewraxxcfq"> <date> <text
+bgcolor="00000000" fgcolor="ffFFFFFF" fontsize="36"
+fontname="/root/dmb/programm/font/3e20b41f97836e43b9f5d13fab964397.ttf"
+format="农历" timecount="10" /> </date> </task> </surface> </unit> <screen
+name="test_1024_768_2日期区_1时间区_1"
+id="screen6_54421fe3b3df6a5e973d64fa1e215cf7" width="1024" height="768"
+rotator="0" fullscreen="false"> <surface id="21" name="日期区(1)"
+level="2" x="12" y="18" width="258" height="37" alpha="255" /> <surface
+id="20" name="[主播放区]播放区(1)" level="5" x="223" y="160"
+width="742" height="565" alpha="255" /> <surface id="18" name="隐藏区"
+level="1" x="0" y="0" width="16" height="16" hide="true" alpha="255" /> <surface
+id="19" name="日期区(2)" level="3" x="15" y="75" width="258"
+height="37" alpha="255" /> <surface id="22" name="时间区" level="4"
+x="17" y="133" width="150" height="37" alpha="255" /> </screen> <screen
+name="test_1024_768_2日期区_1时间区_2"
+id="screen7_bfd2651a48c0526442989476c5a0010e" width="1024" height="768"
+rotator="0" fullscreen="false"> <surface id="24" name="日期区(2)"
+level="3" x="15" y="75" width="258" height="37" alpha="255" /> <surface
+id="26" name="[主播放区]播放区(1)" level="5" x="223" y="160"
+width="742" height="565" alpha="255" /> <surface id="27" name="时间区"
+level="4" x="17" y="133" width="150" height="37" alpha="255" /> <surface
+id="23" name="隐藏区" level="1" x="0" y="0" width="16" height="16"
+hide="true" alpha="255" /> <surface id="25" name="日期区(1)" level="2"
+x="12" y="18" width="258" height="37" alpha="255" /> </screen> <screen
+name="test_1024_768_2日期区_1时间区_3"
+id="screen8_cfb9c09943004f3f9540e91840ab893b" width="1024" height="768"
+rotator="0" fullscreen="false"> <surface id="30" name="日期区(2)"
+level="3" x="15" y="75" width="258" height="37" alpha="255" /> <surface
+id="31" name="[主播放区]播放区(1)" level="5" x="228" y="173"
+width="742" height="564" alpha="255" /> <surface id="32"
+name="日期区(1)" level="2" x="12" y="18" width="258" height="37"
+alpha="255" /> <surface id="29" name="时间区" level="4" x="18" y="133"
+width="278" height="37" alpha="255" /> <surface id="28" name="隐藏区"
+level="1" x="0" y="0" width="16" height="16" hide="true" alpha="255" /> </screen>
+<screen name="test_1024_768_2日期区_1时间区_4"
+id="screen9_0e6f31e385cb22faa6c64c8e1649703d" width="1024" height="768"
+rotator="0" fullscreen="false"> <surface id="34" name="时间区"
+level="4" x="18" y="133" width="283" height="37" alpha="255" /> <surface
+id="35" name="日期区(2)" level="3" x="15" y="75" width="258"
+height="37" alpha="255" /> <surface id="33" name="隐藏区" level="1"
+x="0" y="0" width="16" height="16" hide="true" alpha="255" /> <surface
+id="36" name="[主播放区]播放区(1)" level="5" x="228" y="173"
+width="742" height="564" alpha="255" /> <surface id="37"
+name="日期区(1)" level="2" x="12" y="18" width="258" height="37"
+alpha="255" /> </screen> <screen
+name="test_1024_768_2日期区_1时间区_5"
+id="screen10_ba2c41a1423e8539bdb16737ff634fc5" width="1024" height="768"
+rotator="0" fullscreen="false"> <surface id="38" name="隐藏区"
+level="1" x="0" y="0" width="16" height="16" hide="true" alpha="255" /> <surface
+id="40" name="日期区(2)" level="3" x="15" y="75" width="258"
+height="37" alpha="255" /> <surface id="41"
+name="[主播放区]播放区(1)" level="5" x="228" y="173" width="742"
+height="564" alpha="255" /> <surface id="42" name="日期区(1)"
+level="2" x="12" y="18" width="258" height="37" alpha="255" /> <surface
+id="39" name="时间区" level="4" x="18" y="133" width="244" height="37"
+alpha="255" /> </screen> <screen
+name="test_1024_768_2日期区_1时间区_6"
+id="screen11_73968fef4b989b9bf06857b05d5413e9" width="1024" height="768"
+rotator="0" fullscreen="false"> <surface id="45" name="日期区(2)"
+level="3" x="15" y="75" width="258" height="37" alpha="255" /> <surface
+id="43" name="隐藏区" level="1" x="0" y="0" width="16" height="16"
+hide="true" alpha="255" /> <surface id="47" name="日期区(1)" level="2"
+x="12" y="18" width="258" height="37" alpha="255" /> <surface id="44"
+name="时间区" level="4" x="18" y="133" width="244" height="37"
+alpha="255" /> <surface id="46" name="[主播放区]播放区(1)"
+level="5" x="228" y="173" width="742" height="564" alpha="255" /> </screen>
+<screen name="test_1024_768_2日期区_1时间区_7"
+id="screen12_5c038aba974f2c26bc221ed4805a81cc" width="1024" height="768"
+rotator="0" fullscreen="false"> <surface id="48" name="隐藏区"
+level="1" x="0" y="0" width="16" height="16" hide="true" alpha="255" /> <surface
+id="52" name="日期区(1)" level="2" x="12" y="18" width="258"
+height="37" alpha="255" /> <surface id="51"
+name="[主播放区]播放区(1)" level="5" x="228" y="173" width="742"
+height="564" alpha="255" /> <surface id="49" name="时间区" level="4"
+x="18" y="133" width="244" height="37" alpha="255" /> <surface id="50"
+name="日期区(2)" level="3" x="15" y="75" width="258" height="37"
+alpha="255" /> </screen> </playlist></push>

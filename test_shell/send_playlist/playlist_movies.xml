@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<push dmbversion="1.0" sequence="serverBOX000330" type="server">
+	<playlist date="2013-03-12"key="553fcc0f00a59e723fd0fd881c523dfe"> 
+		<unit id="unit94" name="新的任务包(20130312204412484)" playmode="CIRCLE" style="screen27_936a56e1287a03990de0324c046a6977" key="a84c06fc03b05f8977892645e4041f2b" startdate="1970-01-01" enddate="2036-01-01"> 
+			<playtime> 
+				<time starttime="00:00:00"endtime="23:59:59" playcount="1" /> 
+			</playtime> 
+			<surface id="199"master="true" name="[主播放区]播放区(1)"> 
+				<task id="928"name="test" type="VIDEO" freq="1" key="a43aa181cdef7414aadff6bed69d8617" stufftype="VIDEO"> 
+					<playvideo> 
+						<video href="/integrated_test/ExperienceMP10.wmv" md5="dc49446eafea941704859b0174a22114" filename="ExperienceMP10.wmv" filesize="66871182" height="1080"width="1920" timecount="32" stuffid="262" /> 
+					</playvideo> 
+				</task> 
+			</surface> 
+			<surface id="200" name="隐藏区"> 
+			</surface> 
+		</unit> 
+	<screen name="test" id="screen27_936a56e1287a03990de0324c046a6977" width="1024" height="768" rotator="0" fullscreen="false"> 
+		<surface id="199" name="[主播放区]播放区(1)" level="2" x="0" y="0" width="1024" height="768" alpha="255" /> 
+		<surface id="200" name="隐藏区" level="1" x="0" y="0" width="16" height="16" hide="true" alpha="255" /> 
+	</screen> 
+	</playlist>
+</push>

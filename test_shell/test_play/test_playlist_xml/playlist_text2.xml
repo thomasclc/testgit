@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><push dmbversion="1.0"
+sequence="serverBOX999990" type="server"><playlist date="2013-12-31"
+key="59b27624aca644544ff6cc48bfd9674d"> <unit id="unit111"
+name="任务包(0000000174)" playmode="CIRCLE"
+style="screen83_2bf7162bddf1615f73248e562abdf70a"
+key="07b841e7bac4949e2e5588b9a6967da8" startdate="2001-01-01"
+enddate="2020-01-01"> <playtime> <time starttime="00:00:00"
+endtime="23:59:59" playcount="1" /> </playtime> <surface id="833"
+master="true" name="[主播放区]播放区(1)"> <task id="1600"
+name="b.txt_1" type="SHIFTTEXT" freq="1"
+key="1bcd86ecee68e072ca2f5dc690a397c7" stufftype="TXT"> <shifttext> <text
+bgcolor="00000000" fgcolor="ffFFFFFF" fontsize="36"
+fontname="/root/dmb/programm/font/simhei.ttf" speed="6" timecount="30"> <text
+href="/stufflib/TXT/12f311e1e0d2872ab87fcab57b3e0b2a.txt"
+md5="12f311e1e0d2872ab87fcab57b3e0b2a" filename="b.txt" filesize="1727" />
+</text> </shifttext> </task> <task id="1601" name="c.txt_2"
+type="PAGETEXT" freq="1" key="fbde8fb7fc2eef24d914785db6e15bf5"
+stufftype="TXT"> <pagetext> <text bgcolor="00000000" fgcolor="ffFFFFFF"
+fontsize="36" fontname="/root/dmb/programm/font/simhei.ttf" speed="6"
+timecount="5"> <text
+href="/stufflib/TXT/45982ef5da9ee76396a490a5597a4868.txt"
+md5="45982ef5da9ee76396a490a5597a4868" filename="c.txt" filesize="4347" />
+</text> </pagetext> </task> </surface> <surface id="834" name="隐藏区">
+</surface> </unit> <screen name="test_play_text2"
+id="screen83_2bf7162bddf1615f73248e562abdf70a" width="1024" height="768"
+rotator="0" fullscreen="false"> <surface id="833"
+name="[主播放区]播放区(1)" level="2" x="0" y="0" width="1024"
+height="768" alpha="255" /> <surface id="834" name="隐藏区" level="1"
+x="0" y="0" width="16" height="16" hide="true" alpha="255" /> </screen> </playlist></push>

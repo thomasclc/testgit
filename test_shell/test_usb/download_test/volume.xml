@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?><request dmbversion="1.1"
+ type="server"><volumes
+key="690745bdd14424f50b37687144dd66bd"><volume start="00:00:00"
+end="04:00:00" value="0" /><volume start="04:00:01" end="04:14:59"
+value="20" /><volume start="04:15:00" end="08:00:00" value="4" /><volume
+start="08:00:01" end="08:14:59" value="20" /><volume start="08:15:00"
+end="12:00:00" value="8" /><volume start="12:00:01" end="12:14:59"
+value="20" /><volume start="12:15:00" end="16:00:00" value="12" /><volume
+start="16:00:01" end="16:14:59" value="20" /><volume start="16:15:00"
+end="20:00:00" value="16" /><volume start="20:00:01" end="20:14:59"
+value="20" /><volume start="20:15:00" end="23:59:59" value="20" /></volumes></request>

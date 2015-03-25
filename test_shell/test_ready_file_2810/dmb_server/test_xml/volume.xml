@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?> <request dmbversion="1.0"
+sequence="serverBOX000330" type="server"> <volume action="set" value="20" />
+<volumes key="1ea384ffff28ccaf8dddc36f9b621019"> <volume start="00:00:00"
+end="17:00:00" value="20" /> <volume start="17:00:01" end="17:14:59"
+value="20" /> <volume start="17:15:00" end="23:59:59" value="20" /> </volumes>
+</request>

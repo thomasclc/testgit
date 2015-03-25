@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?><push dmbversion="1.0"
+sequence="server123456780" type="server"><playlist date="2014-03-25"
+key="97529ccf45069cc74712347132c2b0dc"> <unit id="unit49"
+name="1920_1080分辨率" playmode="INSERT"
+style="screen13_6b20f8dd2e41ad382e2a0d7737db8e22"
+key="e8bf8a72048b91e3693b7218786686a4" startdate="1999-01-01"
+enddate="2037-01-01"> <playtime> <time starttime="00:00:00"
+endtime="23:59:59" playcount="1" /> </playtime> <surface id="53"
+name="隐藏区"> </surface> <surface id="54" master="true"
+name="[主播放区]播放区(1)"> <task id="104" name="0.JPG_1.."
+type="PICPAGE" timecount="10.0" freq="1"
+key="1d31527d5a618527ebe50a61206ac21d" stufftype="IMAGE"> <picpage> <img
+href="/stufflib/IMAGE/3b3984590406a702acd19a19c11a5d9d_1920_1080.png"
+md5="e63de5c99389406125d777b4080b4c08" filename="0.JPG"
+filesize="2708215" showmode="cover" timecount="5" speed="1" /> <img
+href="/stufflib/IMAGE/c36f3294e26767d9419161d377df7e3c_1920_1080.png"
+md5="881330bff66c8a7540bb0dbf6e8966b3" filename="1.JPG"
+filesize="2511099" showmode="cover" timecount="5" speed="1" /> </picpage>
+</task> </surface> </unit> <screen name="test_1920_1080_单分屏全屏"
+id="screen13_6b20f8dd2e41ad382e2a0d7737db8e22" width="1920" height="1080"
+rotator="0" fullscreen="false"> <surface id="53" name="隐藏区"
+level="1" x="0" y="0" width="30" height="23" hide="true" alpha="255" /> <surface
+id="54" name="[主播放区]播放区(1)" level="2" x="0" y="0"
+width="1920" height="1080" alpha="255" /> </screen> </playlist></push>

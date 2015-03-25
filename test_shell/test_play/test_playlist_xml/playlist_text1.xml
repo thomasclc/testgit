@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?><push dmbversion="1.0"
+sequence="serverBOX999990" type="server"><playlist date="2013-12-27"
+key="29719a970d29ac510c488ab8c9a9c86b"> <unit id="unit41"
+name="任务包(0000000087)" playmode="CIRCLE"
+style="screen72_bd25877a64519faf5366ad5fb55cd4d9"
+key="779d4b171fd121311199353f440d578d" startdate="2000-01-01"
+enddate="2020-01-01"> <playtime> <time starttime="00:00:00"
+endtime="23:59:59" playcount="1" /> </playtime> <surface
+id="captionZone1" name="字幕区(2)"> <task id="618" name="c.txt_3"
+type="SHIFTLAMP" freq="1" key="3d2e6f1cdd36d60b22c3fac4782dcc34"
+stufftype="TXT"> <shiftlamp> <text bgcolor="403366FF" fgcolor="dbFF00FF"
+fontsize="68" fontname="/root/dmb/programm/font/simhei.ttf" speed="6"
+mode="LineByLine" timecount="30"> <text
+href="/stufflib/TXT/45982ef5da9ee76396a490a5597a4868.txt"
+md5="45982ef5da9ee76396a490a5597a4868" filename="c.txt" filesize="4347" />
+</text> </shiftlamp> </task> </surface> <surface id="711"
+name="播放区(1)"> </surface> <surface id="710" master="true"
+name="[主播放区]播放区(2)"> <task id="616" name="1.JPG_1.."
+type="PICPAGE" freq="1" key="b3a9541fc478e118121f06f4619b492f"
+stufftype="IMAGE"> <picpage> <img
+href="/stufflib/IMAGE/6d0852a8804aa736758221512f582270_400_300.JPG"
+md5="3947b6d53f0ba1d250c3c1817cf4c1e7" filename="1.JPG" filesize="22648"
+showmode="cover" timecount="10" speed="6" /> <img
+href="/stufflib/IMAGE/1f273e4db4afb213e808d339f75dbf30_400_300.jpg"
+md5="1e54beb560487637b828319ae483253b"
+filename="01.晴空-[55楼顶的诗].jpg" filesize="36764"
+showmode="cover" timecount="10" speed="6" /> <img
+href="/stufflib/IMAGE/09c15cd9d3f5359485a763ffe5842543_400_300.jpg"
+md5="cd2b981e53b93c4de01052a847d8dedd"
+filename="02.日暮-[55楼顶的诗].jpg" filesize="21238"
+showmode="cover" timecount="10" speed="6" /> <img
+href="/stufflib/IMAGE/60303aec5b5f840a689366d410123649_400_300.jpg"
+md5="656aca9c7d6872114edb8f011eb5351c"
+filename="03.月升-[55楼顶的诗].jpg" filesize="30122"
+showmode="cover" timecount="10" speed="6" /> <img
+href="/stufflib/IMAGE/ae2df2cbdddc92d3af8e6862584d75f5_400_300.jpg"
+md5="f9b080221dff9b214515a55c69f0e9a5"
+filename="04.夜色-[55楼顶的诗].jpg" filesize="33287"
+showmode="cover" timecount="10" speed="6" /> </picpage> </task> </surface>
+<surface id="709" name="隐藏区"> </surface> <surface id="captionZone0"
+name="字幕区(1)"> <task id="617" name="b.txt_2" type="SHIFTLAMP"
+freq="1" key="c97cd28c2c4c3d305ef35e80facdec99" stufftype="TXT"> <shiftlamp>
+<text bgcolor="72333399" fgcolor="bdFF6600" fontsize="36"
+fontname="/root/dmb/programm/font/simhei.ttf" speed="6"
+mode="RightToLeft" timecount="30"> <text
+href="/stufflib/TXT/12f311e1e0d2872ab87fcab57b3e0b2a.txt"
+md5="12f311e1e0d2872ab87fcab57b3e0b2a" filename="b.txt" filesize="1727" />
+</text> </shiftlamp> </task> </surface> </unit> <screen
+name="test_play_text1" id="screen72_bd25877a64519faf5366ad5fb55cd4d9"
+width="1024" height="768" rotator="0" fullscreen="false"> <surface
+id="captionZone1" name="字幕区(2)" level="5" x="87" y="442"
+width="937" height="68" alpha="255" /> <surface id="711"
+name="播放区(1)" level="2" x="0" y="0" width="1024" height="768"
+href="/stufflib/IMAGE/d4a6b02b18d87a55f101cb3ca4403e85_1024_768.png"
+md5="01d80483d9b128271fb6f2e3a4c97d28"
+filename="d4a6b02b18d87a55f101cb3ca4403e85_1024_768.png"
+filesize="1104206" alpha="255" /> <surface id="710"
+name="[主播放区]播放区(2)" level="3" x="263" y="12" width="400"
+height="300" alpha="255" /> <surface id="709" name="隐藏区" level="1"
+x="0" y="0" width="16" height="16" hide="true" alpha="255" /> <surface
+id="captionZone0" name="字幕区(1)" level="4" x="87" y="355"
+width="800" height="37" alpha="255" /> </screen> </playlist></push>

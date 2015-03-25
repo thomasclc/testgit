@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?><result dmbversion="1.0"
+sequence="terminalBOX000331" type="terminal"><weather> <WEATHER
+text="上海
+阴转多云
+8℃~13℃" /> <WEATHERCITYIMG
+href="/stufflib/PLUGIN/plugin.v2.weather.china/city/101020100m_0.png"
+md5="6489d2dfe3ced5de8256e01bbe4186f6" filename="101020100m_0.png"
+filesize="49795" /> <WEATHERIMG
+href="/stufflib/PLUGIN/plugin.v2.weather.china/weather/d02_0.png"
+md5="fb0d9ab8c571229e1a03785bd5d9f90b" filename="d02_0.png"
+filesize="867" /> </weather></result>

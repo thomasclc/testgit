@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="UTF-8"?><push dmbversion="1.0"
+sequence="terminal123456789" type="server"><playlist date="2014-03-25"
+key="6c55176e2eae1b30ba984681e6b5b327"> <unit id="unit12"
+name="多区域重叠" playmode="CIRCLE"
+style="screen4_0b4b69b6bfcdc63faf8d78ce5fd3d01e"
+key="bee1630e28c6d4e54e9eccf8d264b4a3" startdate="1999-01-01"
+enddate="2037-01-01"> <playtime> <time starttime="00:00:00"
+endtime="23:59:59" playcount="1" /> </playtime> <surface id="13"
+name="播放区(2)"> <task id="55" name="1.JPG_10.." type="PICPAGE"
+timecount="30.0" freq="1" key="f7d89c5f0a3b8b4ca550d9c257165d83"
+stufftype="IMAGE"> <picpage> <img
+href="/stufflib/IMAGE/c36f3294e26767d9419161d377df7e3c_400_300.png"
+md5="10ae5fd434b878fdc3942758d26f91fa" filename="1.JPG" filesize="225757"
+showmode="cover" timecount="5" speed="1" /> <img
+href="/stufflib/IMAGE/1a6fc0f8bd76dc14171d7b40000859d2_400_300.png"
+md5="f00fbdaa58f11eb63c89b25578054586" filename="2.JPG" filesize="225687"
+showmode="cover" timecount="5" speed="1" /> <img
+href="/stufflib/IMAGE/5fc90e6a8223bda73beabf6a03d1785a_400_300.png"
+md5="cb79447d39b4005cb8feb4e251439d7e" filename="3.JPG" filesize="227036"
+showmode="cover" timecount="5" speed="1" /> <img
+href="/stufflib/IMAGE/421791648dcd245aaa644655c79ab1ae_400_300.png"
+md5="692ce6fa2753a5f405349f457bb8f3d3" filename="4.JPG" filesize="234348"
+showmode="cover" timecount="5" speed="1" /> <img
+href="/stufflib/IMAGE/1ef90c2ee498c0389ee8267dcb99a225_400_300.png"
+md5="5684b92aeeca331c4e1eff092d3ba5bd" filename="5.JPG" filesize="234768"
+showmode="cover" timecount="5" speed="1" /> <img
+href="/stufflib/IMAGE/d2c3fbf2a808fc56745f6d55098671f3_400_300.png"
+md5="e8bd1641a62ed49563f1c7454f77e7ba" filename="6.JPG" filesize="240873"
+showmode="cover" timecount="5" speed="1" /> </picpage> </task> </surface>
+<surface id="6" name="播放区(4)"> <task id="56" name="6.JPG_15.."
+type="PICPAGE" timecount="30.0" freq="1"
+key="a478e331a6b0b82f72c3c1379e1b4adb" stufftype="IMAGE"> <picpage> <img
+href="/stufflib/IMAGE/d2c3fbf2a808fc56745f6d55098671f3_400_300.png"
+md5="e8bd1641a62ed49563f1c7454f77e7ba" filename="6.JPG" filesize="240873"
+showmode="cover" timecount="5" speed="1" /> <img
+href="/stufflib/IMAGE/a0ca19304cd8ab9330032c0f6618a9c4_400_300.png"
+md5="c136771a35caa73f509369a57329f6c7" filename="7.JPG" filesize="228958"
+showmode="cover" timecount="5" speed="1" /> <img
+href="/stufflib/IMAGE/e5589466de83401180d4baf6641854f5_400_300.png"
+md5="2a2848f673109bc3029212f96e790645" filename="8.JPG" filesize="242766"
+showmode="cover" timecount="5" speed="1" /> <img
+href="/stufflib/IMAGE/7ca5854b11eafbfc0f160295a030be70_400_300.png"
+md5="f98f6f18da727654fb0c1e017cc7f5e2" filename="9.JPG" filesize="238995"
+showmode="cover" timecount="5" speed="1" /> <img
+href="/stufflib/IMAGE/3b3984590406a702acd19a19c11a5d9d_400_300.png"
+md5="98ebb01e2b45bb5149e66bf7883c6464" filename="0.JPG" filesize="235920"
+showmode="cover" timecount="5" speed="1" /> <img
+href="/stufflib/IMAGE/c36f3294e26767d9419161d377df7e3c_400_300.png"
+md5="10ae5fd434b878fdc3942758d26f91fa" filename="1.JPG" filesize="225757"
+showmode="cover" timecount="5" speed="1" /> </picpage> </task> </surface>
+<surface id="14" name="播放区(7)"> <task id="57" name="3.JPG_12.."
+type="PICPAGE" timecount="30.0" freq="1"
+key="cb10952143ffeb36ac4048c5785ef08c" stufftype="IMAGE"> <picpage> <img
+href="/stufflib/IMAGE/5fc90e6a8223bda73beabf6a03d1785a_400_300.png"
+md5="cb79447d39b4005cb8feb4e251439d7e" filename="3.JPG" filesize="227036"
+showmode="cover" timecount="5" speed="1" /> <img
+href="/stufflib/IMAGE/421791648dcd245aaa644655c79ab1ae_400_300.png"
+md5="692ce6fa2753a5f405349f457bb8f3d3" filename="4.JPG" filesize="234348"
+showmode="cover" timecount="5" speed="1" /> <img
+href="/stufflib/IMAGE/1ef90c2ee498c0389ee8267dcb99a225_400_300.png"
+md5="5684b92aeeca331c4e1eff092d3ba5bd" filename="5.JPG" filesize="234768"
+showmode="cover" timecount="5" speed="1" /> <img
+href="/stufflib/IMAGE/d2c3fbf2a808fc56745f6d55098671f3_400_300.png"
+md5="e8bd1641a62ed49563f1c7454f77e7ba" filename="6.JPG" filesize="240873"
+showmode="cover" timecount="5" speed="1" /> <img
+href="/stufflib/IMAGE/a0ca19304cd8ab9330032c0f6618a9c4_400_300.png"
+md5="c136771a35caa73f509369a57329f6c7" filename="7.JPG" filesize="228958"
+showmode="cover" timecount="5" speed="1" /> <img
+href="/stufflib/IMAGE/e5589466de83401180d4baf6641854f5_400_300.png"
+md5="2a2848f673109bc3029212f96e790645" filename="8.JPG" filesize="242766"
+showmode="cover" timecount="5" speed="1" /> </picpage> </task> </surface>
+<surface id="12" name="播放区(5)"> <task id="58" name="4.JPG_13.."
+type="PICPAGE" timecount="30.0" freq="1"
+key="661bd7e09a7a76fb4c7c942cdd5e4b35" stufftype="IMAGE"> <picpage> <img
+href="/stufflib/IMAGE/421791648dcd245aaa644655c79ab1ae_400_300.png"
+md5="692ce6fa2753a5f405349f457bb8f3d3" filename="4.JPG" filesize="234348"
+showmode="cover" timecount="5" speed="1" /> <img
+href="/stufflib/IMAGE/1ef90c2ee498c0389ee8267dcb99a225_400_300.png"
+md5="5684b92aeeca331c4e1eff092d3ba5bd" filename="5.JPG" filesize="234768"
+showmode="cover" timecount="5" speed="1" /> <img
+href="/stufflib/IMAGE/d2c3fbf2a808fc56745f6d55098671f3_400_300.png"
+md5="e8bd1641a62ed49563f1c7454f77e7ba" filename="6.JPG" filesize="240873"
+showmode="cover" timecount="5" speed="1" /> <img
+href="/stufflib/IMAGE/a0ca19304cd8ab9330032c0f6618a9c4_400_300.png"
+md5="c136771a35caa73f509369a57329f6c7" filename="7.JPG" filesize="228958"
+showmode="cover" timecount="5" speed="1" /> <img
+href="/stufflib/IMAGE/e5589466de83401180d4baf6641854f5_400_300.png"
+md5="2a2848f673109bc3029212f96e790645" filename="8.JPG" filesize="242766"
+showmode="cover" timecount="5" speed="1" /> <img
+href="/stufflib/IMAGE/7ca5854b11eafbfc0f160295a030be70_400_300.png"
+md5="f98f6f18da727654fb0c1e017cc7f5e2" filename="9.JPG" filesize="238995"
+showmode="cover" timecount="5" speed="1" /> </picpage> </task> </surface>
+<surface id="7" name="播放区(3)"> <task id="59" name="2.JPG_11.."
+type="PICPAGE" timecount="30.0" freq="1"
+key="4d3157a39fcc414f4f88339fcf3693a9" stufftype="IMAGE"> <picpage> <img
+href="/stufflib/IMAGE/1a6fc0f8bd76dc14171d7b40000859d2_400_300.png"
+md5="f00fbdaa58f11eb63c89b25578054586" filename="2.JPG" filesize="225687"
+showmode="cover" timecount="5" speed="1" /> <img
+href="/stufflib/IMAGE/5fc90e6a8223bda73beabf6a03d1785a_400_300.png"
+md5="cb79447d39b4005cb8feb4e251439d7e" filename="3.JPG" filesize="227036"
+showmode="cover" timecount="5" speed="1" /> <img
+href="/stufflib/IMAGE/421791648dcd245aaa644655c79ab1ae_400_300.png"
+md5="692ce6fa2753a5f405349f457bb8f3d3" filename="4.JPG" filesize="234348"
+showmode="cover" timecount="5" speed="1" /> <img
+href="/stufflib/IMAGE/1ef90c2ee498c0389ee8267dcb99a225_400_300.png"
+md5="5684b92aeeca331c4e1eff092d3ba5bd" filename="5.JPG" filesize="234768"
+showmode="cover" timecount="5" speed="1" /> <img
+href="/stufflib/IMAGE/d2c3fbf2a808fc56745f6d55098671f3_400_300.png"
+md5="e8bd1641a62ed49563f1c7454f77e7ba" filename="6.JPG" filesize="240873"
+showmode="cover" timecount="5" speed="1" /> <img
+href="/stufflib/IMAGE/a0ca19304cd8ab9330032c0f6618a9c4_400_300.png"
+md5="c136771a35caa73f509369a57329f6c7" filename="7.JPG" filesize="228958"
+showmode="cover" timecount="5" speed="1" /> </picpage> </task> </surface>
+<surface id="8" name="隐藏区"> </surface> <surface id="9"
+name="播放区(1)"> <task id="60" name="0.JPG_2.." type="PICPAGE"
+timecount="30.0" freq="1" key="9646c9951e5253faea105d16c88cfe4e"
+stufftype="IMAGE"> <picpage> <img
+href="/stufflib/IMAGE/3b3984590406a702acd19a19c11a5d9d_400_300.png"
+md5="98ebb01e2b45bb5149e66bf7883c6464" filename="0.JPG" filesize="235920"
+showmode="cover" timecount="5" speed="1" /> <img
+href="/stufflib/IMAGE/c36f3294e26767d9419161d377df7e3c_400_300.png"
+md5="10ae5fd434b878fdc3942758d26f91fa" filename="1.JPG" filesize="225757"
+showmode="cover" timecount="5" speed="1" /> <img
+href="/stufflib/IMAGE/1a6fc0f8bd76dc14171d7b40000859d2_400_300.png"
+md5="f00fbdaa58f11eb63c89b25578054586" filename="2.JPG" filesize="225687"
+showmode="cover" timecount="5" speed="1" /> <img
+href="/stufflib/IMAGE/5fc90e6a8223bda73beabf6a03d1785a_400_300.png"
+md5="cb79447d39b4005cb8feb4e251439d7e" filename="3.JPG" filesize="227036"
+showmode="cover" timecount="5" speed="1" /> <img
+href="/stufflib/IMAGE/421791648dcd245aaa644655c79ab1ae_400_300.png"
+md5="692ce6fa2753a5f405349f457bb8f3d3" filename="4.JPG" filesize="234348"
+showmode="cover" timecount="5" speed="1" /> <img
+href="/stufflib/IMAGE/1ef90c2ee498c0389ee8267dcb99a225_400_300.png"
+md5="5684b92aeeca331c4e1eff092d3ba5bd" filename="5.JPG" filesize="234768"
+showmode="cover" timecount="5" speed="1" /> </picpage> </task> </surface>
+<surface id="10" master="true" name="[主播放区]播放区(8)"> <task
+id="62" name="7.JPG_16.." type="PICPAGE" timecount="30.0" freq="1"
+key="66890ca6591f7a8831956b84b9903417" stufftype="IMAGE"> <picpage> <img
+href="/stufflib/IMAGE/a0ca19304cd8ab9330032c0f6618a9c4_400_300.png"
+md5="c136771a35caa73f509369a57329f6c7" filename="7.JPG" filesize="228958"
+showmode="cover" timecount="5" speed="1" /> <img
+href="/stufflib/IMAGE/e5589466de83401180d4baf6641854f5_400_300.png"
+md5="2a2848f673109bc3029212f96e790645" filename="8.JPG" filesize="242766"
+showmode="cover" timecount="5" speed="1" /> <img
+href="/stufflib/IMAGE/7ca5854b11eafbfc0f160295a030be70_400_300.png"
+md5="f98f6f18da727654fb0c1e017cc7f5e2" filename="9.JPG" filesize="238995"
+showmode="cover" timecount="5" speed="1" /> <img
+href="/stufflib/IMAGE/3b3984590406a702acd19a19c11a5d9d_400_300.png"
+md5="98ebb01e2b45bb5149e66bf7883c6464" filename="0.JPG" filesize="235920"
+showmode="cover" timecount="5" speed="1" /> <img
+href="/stufflib/IMAGE/c36f3294e26767d9419161d377df7e3c_400_300.png"
+md5="10ae5fd434b878fdc3942758d26f91fa" filename="1.JPG" filesize="225757"
+showmode="cover" timecount="5" speed="1" /> <img
+href="/stufflib/IMAGE/1a6fc0f8bd76dc14171d7b40000859d2_400_300.png"
+md5="f00fbdaa58f11eb63c89b25578054586" filename="2.JPG" filesize="225687"
+showmode="cover" timecount="5" speed="1" /> </picpage> </task> </surface>
+<surface id="11" name="播放区(6)"> <task id="61" name="5.JPG_14.."
+type="PICPAGE" timecount="30.0" freq="1"
+key="d6028a5f7ada74c79dff1f680fd4197f" stufftype="IMAGE"> <picpage> <img
+href="/stufflib/IMAGE/1ef90c2ee498c0389ee8267dcb99a225_400_300.png"
+md5="5684b92aeeca331c4e1eff092d3ba5bd" filename="5.JPG" filesize="234768"
+showmode="cover" timecount="5" speed="1" /> <img
+href="/stufflib/IMAGE/d2c3fbf2a808fc56745f6d55098671f3_400_300.png"
+md5="e8bd1641a62ed49563f1c7454f77e7ba" filename="6.JPG" filesize="240873"
+showmode="cover" timecount="5" speed="1" /> <img
+href="/stufflib/IMAGE/a0ca19304cd8ab9330032c0f6618a9c4_400_300.png"
+md5="c136771a35caa73f509369a57329f6c7" filename="7.JPG" filesize="228958"
+showmode="cover" timecount="5" speed="1" /> <img
+href="/stufflib/IMAGE/e5589466de83401180d4baf6641854f5_400_300.png"
+md5="2a2848f673109bc3029212f96e790645" filename="8.JPG" filesize="242766"
+showmode="cover" timecount="5" speed="1" /> <img
+href="/stufflib/IMAGE/7ca5854b11eafbfc0f160295a030be70_400_300.png"
+md5="f98f6f18da727654fb0c1e017cc7f5e2" filename="9.JPG" filesize="238995"
+showmode="cover" timecount="5" speed="1" /> <img
+href="/stufflib/IMAGE/3b3984590406a702acd19a19c11a5d9d_400_300.png"
+md5="98ebb01e2b45bb5149e66bf7883c6464" filename="0.JPG" filesize="235920"
+showmode="cover" timecount="5" speed="1" /> </picpage> </task> </surface>
+</unit> <screen name="test_1024_768_重叠8分屏"
+id="screen4_0b4b69b6bfcdc63faf8d78ce5fd3d01e" width="1024" height="768"
+rotator="0" fullscreen="false"> <surface id="13" name="播放区(2)"
+level="3" x="292" y="42" width="400" height="300" alpha="255" /> <surface
+id="6" name="播放区(4)" level="5" x="623" y="468" width="400"
+height="300" alpha="255" /> <surface id="14" name="播放区(7)"
+level="8" x="58" y="252" width="400" height="300" alpha="255" /> <surface
+id="12" name="播放区(5)" level="6" x="558" y="252" width="400"
+height="300" alpha="255" /> <surface id="7" name="播放区(3)" level="4"
+x="623" y="0" width="400" height="300" alpha="255" /> <surface id="8"
+name="隐藏区" level="1" x="0" y="0" width="16" height="16" hide="true"
+alpha="255" /> <surface id="9" name="播放区(1)" level="2" x="0" y="0"
+width="400" height="300" alpha="255" /> <surface id="10"
+name="[主播放区]播放区(8)" level="9" x="297" y="380" width="400"
+height="300" alpha="255" /> <surface id="11" name="播放区(6)"
+level="7" x="0" y="468" width="400" height="300" alpha="255" /> </screen>
+</playlist></push>

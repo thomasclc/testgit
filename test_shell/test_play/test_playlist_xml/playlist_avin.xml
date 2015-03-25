@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?><push dmbversion="1.0"
+sequence="terminal123456789" type="server"><playlist date="2014-03-25"
+key="46e4e18cfa0c3a27ad4b72a7cef72c9f"> <unit id="unit50" name="av_in"
+playmode="CIRCLE" style="screen5_aef815df107932fa935b8073c11cd554"
+key="9a5c5b0b0c5a0c49d7dbc92e62f81601" startdate="2014-03-25"
+enddate="2037-01-01"> <playtime> <time starttime="00:00:00"
+endtime="23:59:59" playcount="1" /> </playtime> <surface id="15"
+master="true" name="[主播放区]播放区(1)"> <task id="106"
+name="avin_1" type="VIDEO" timecount="60.0" freq="1"
+key="64021fc25a678dd02c2fe0261586e7b5" stufftype="VIDEO"> <playvideo> <video
+href="/stufflib/VIDEO/avin://local"
+md5="fa06875c8d499e5fa1b2e04df346a89d" filename="avin" filesize="0"
+height="0" width="0" timecount="60" stuffid="37" /> </playvideo> </task> </surface>
+<surface id="captionZone0" name="字幕区(1)"> <task id="107"
+name="avin说明.txt_2" type="SHIFTLAMP" freq="1"
+key="12309b2feaa8fc8185dd1dfd458b8727" stufftype="TXT"> <shiftlamp> <text
+bgcolor="ffFFFFFF" fgcolor="ff000000" fontsize="36"
+fontname="/root/dmb/programm/font/3e20b41f97836e43b9f5d13fab964397.ttf"
+speed="1" mode="LineByLine" timecount="30"> <text
+href="/stufflib/TXT/de6a82985a0cab8e463d634b9e1ea142.txt"
+md5="de6a82985a0cab8e463d634b9e1ea142" filename="avin说明.txt"
+filesize="26" /> </text> </shiftlamp> </task> </surface> <surface id="16"
+name="隐藏区"> </surface> </unit> <screen
+name="test_1024.768_单分屏单走马灯"
+id="screen5_aef815df107932fa935b8073c11cd554" width="1024" height="768"
+rotator="0" fullscreen="false"> <surface id="15"
+name="[主播放区]播放区(1)" level="2" x="0" y="0" width="1024"
+height="768" alpha="255" /> <surface id="captionZone0"
+name="字幕区(1)" level="3" x="95" y="33" width="800" height="37"
+alpha="255" /> <surface id="16" name="隐藏区" level="1" x="0" y="0"
+width="16" height="16" hide="true" alpha="255" /> </screen> </playlist></push>

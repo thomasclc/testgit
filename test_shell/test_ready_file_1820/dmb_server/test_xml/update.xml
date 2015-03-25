@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<push dmbversion="1.0" sequence="serverBOX000330" type="server">
+	<upgrade key="6b10c5859c9e03fe2336171421fd826f">
+		 <file href="stufflib/BOXUPDATEPKG/1258f0d99759303c902597a35a6dc67c.gz" size="76" md5="1258f0d99759303c902597a35a6dc67c" filename="test.tar.gz" attr="X"/>
+	</upgrade>
+</push>

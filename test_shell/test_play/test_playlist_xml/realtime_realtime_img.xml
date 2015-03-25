@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?><result dmbversion="1.0"
+sequence="server123456780" type="terminal"><realtimedata><realtimeimg
+filename="test_ftp_img1"
+href="/stufflib/REALTIMEIMG/plugin.v2.commoncrawler/plugin.v2.commoncrawler1395802089548/1f273e4db4afb213e808d339f75dbf30.jpg"
+md5="1f273e4db4afb213e808d339f75dbf30" filesize="326302"
+condition="common" /><realtimeimg filename="test_ftp_img2"
+href="/stufflib/REALTIMEIMG/plugin.v2.commoncrawler/plugin.v2.commoncrawler1395802154668/09c15cd9d3f5359485a763ffe5842543.jpg"
+md5="09c15cd9d3f5359485a763ffe5842543" filesize="205974"
+condition="common" /><realtimeimg filename="test_ftp_img3"
+href="/stufflib/REALTIMEIMG/plugin.v2.commoncrawler/plugin.v2.commoncrawler1395802207612/60303aec5b5f840a689366d410123649.jpg"
+md5="60303aec5b5f840a689366d410123649" filesize="273913"
+condition="common" /></realtimedata></result>

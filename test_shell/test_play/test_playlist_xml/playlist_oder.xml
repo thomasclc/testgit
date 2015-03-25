@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?><push dmbversion="1.0"
+sequence="serverBOX999990" type="server"><playlist date="2014-01-02"
+key="8d071c38fa6a0ff469ecd0fdeb9e53e9"> <unit id="unit264"
+name="任务包(0000000345)" playmode="CIRCLE"
+style="screen70_82901bb3fcea055e399dfa811fc8e41f"
+key="a170d612f172e183c06dbc0373eeefd4" startdate="2001-01-02"
+enddate="2020-01-01"> <playtime> <time starttime="00:00:00"
+endtime="23:59:59" playcount="1" /> </playtime> <surface id="705"
+master="true" name="[主播放区]播放区(1)"> <task id="2121"
+name="03.月升-[55楼顶的诗].jpg_1.." type="PICPAGE" freq="1"
+key="72d3d3a36974818b23ad255888bab3d6" stufftype="IMAGE"> <picpage> <img
+href="/stufflib/IMAGE/60303aec5b5f840a689366d410123649_1024_768.jpg"
+md5="605fc21d7c5df66415e244fd011d94ca"
+filename="03.月升-[55楼顶的诗].jpg" filesize="127886"
+showmode="cover" timecount="40" speed="6" /> <img
+href="/stufflib/IMAGE/ae2df2cbdddc92d3af8e6862584d75f5_1024_768.jpg"
+md5="255cedfb0be656ad90cd139f9091fdee"
+filename="04.夜色-[55楼顶的诗].jpg" filesize="150199"
+showmode="cover" timecount="40" speed="6" /> </picpage> </task> </surface>
+<surface id="706" name="隐藏区"> </surface> </unit> <unit id="unit263"
+name="任务包(0000000343)" playmode="CIRCLE"
+style="screen70_82901bb3fcea055e399dfa811fc8e41f"
+key="376c16ae4114cfddf5757866da3d7184" startdate="2001-01-01"
+enddate="2020-01-01"> <playtime> <time starttime="00:00:00"
+endtime="23:59:59" playcount="1" /> </playtime> <surface id="705"
+master="true" name="[主播放区]播放区(1)"> <task id="2120"
+name="01.晴空-[55楼顶的诗].jpg_1.." type="PICPAGE" freq="1"
+key="beb8368f589a603d792b4a689bf4dc26" stufftype="IMAGE"> <picpage> <img
+href="/stufflib/IMAGE/1f273e4db4afb213e808d339f75dbf30_1024_768.jpg"
+md5="2f27f722293f0330da4992892ce6b089"
+filename="01.晴空-[55楼顶的诗].jpg" filesize="164393"
+showmode="cover" timecount="40" speed="6" /> <img
+href="/stufflib/IMAGE/09c15cd9d3f5359485a763ffe5842543_1024_768.jpg"
+md5="018c20a9e0690bfcd4f2bc9783ed3894"
+filename="02.日暮-[55楼顶的诗].jpg" filesize="93861"
+showmode="cover" timecount="40" speed="6" /> </picpage> </task> </surface>
+<surface id="706" name="隐藏区"> </surface> </unit> <screen
+name="test_play_img" id="screen70_82901bb3fcea055e399dfa811fc8e41f"
+width="1024" height="768" rotator="0" fullscreen="false"> <surface
+id="705" name="[主播放区]播放区(1)" level="2" x="0" y="0"
+width="1024" height="768" alpha="255" /> <surface id="706"
+name="隐藏区" level="1" x="0" y="0" width="16" height="16" hide="true"
+alpha="255" /> </screen> </playlist></push>

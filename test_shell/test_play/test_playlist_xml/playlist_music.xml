@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?><push dmbversion="1.0"
+sequence="terminal123456789" type="server"><playlist date="2014-03-25"
+key="00a3bf03236e7710a84b59e667bda8c2"> <unit id="unit11"
+name="音频任务" playmode="CIRCLE"
+style="screen14_3ea93a022aecd8084b54140c7b3b8b8a"
+key="c1176508fdaba9e69ab43d7826f06afa" startdate="1999-01-01"
+enddate="2037-01-01"> <playtime> <time starttime="00:00:00"
+endtime="23:59:59" playcount="1" /> </playtime> <surface id="55"
+name="播放区(1)"> <task id="51" name="0.JPG_3.." type="PICPAGE"
+timecount="50.0" freq="1" key="6fbfcb2a77afba11193a4b4cccb5af74"
+stufftype="IMAGE"> <picpage> <img
+href="/stufflib/IMAGE/3b3984590406a702acd19a19c11a5d9d_1024_768.png"
+md5="e3ecc865f1bc4ab5b8e36f05798aa0e4" filename="0.JPG"
+filesize="1263560" showmode="cover" timecount="5" speed="1" /> <img
+href="/stufflib/IMAGE/c36f3294e26767d9419161d377df7e3c_1024_768.png"
+md5="d4f45270bbe4c87cca8ffccb793cac35" filename="1.JPG"
+filesize="1180347" showmode="cover" timecount="5" speed="1" /> <img
+href="/stufflib/IMAGE/1a6fc0f8bd76dc14171d7b40000859d2_1024_768.png"
+md5="7dc3986c5b23dacaed61d4a1f5cf5290" filename="2.JPG"
+filesize="1177032" showmode="cover" timecount="5" speed="1" /> <img
+href="/stufflib/IMAGE/5fc90e6a8223bda73beabf6a03d1785a_1024_768.png"
+md5="a0940081386dc56655d1edc61d559a3e" filename="3.JPG"
+filesize="1184955" showmode="cover" timecount="5" speed="1" /> <img
+href="/stufflib/IMAGE/421791648dcd245aaa644655c79ab1ae_1024_768.png"
+md5="234f73eee88ed4c2124caa8af8203cd4" filename="4.JPG"
+filesize="1254376" showmode="cover" timecount="5" speed="1" /> <img
+href="/stufflib/IMAGE/1ef90c2ee498c0389ee8267dcb99a225_1024_768.png"
+md5="d1824632ef6386e2c039d52f5678de66" filename="5.JPG"
+filesize="1246344" showmode="cover" timecount="5" speed="1" /> <img
+href="/stufflib/IMAGE/d2c3fbf2a808fc56745f6d55098671f3_1024_768.png"
+md5="422b2d30ac32e0a6ca73b6f18edf9ed7" filename="6.JPG"
+filesize="1303653" showmode="cover" timecount="5" speed="1" /> <img
+href="/stufflib/IMAGE/e5589466de83401180d4baf6641854f5_1024_768.png"
+md5="3ab47987845bf9fad48b0d111b98a9c0" filename="8.JPG"
+filesize="1316946" showmode="cover" timecount="5" speed="1" /> <img
+href="/stufflib/IMAGE/a0ca19304cd8ab9330032c0f6618a9c4_1024_768.png"
+md5="1558e4ec6a89f7300bf1d4c07e20c7a2" filename="7.JPG"
+filesize="1205623" showmode="cover" timecount="5" speed="1" /> <img
+href="/stufflib/IMAGE/7ca5854b11eafbfc0f160295a030be70_1024_768.png"
+md5="bae417a2ec22277e009d22d20883ccda" filename="9.JPG"
+filesize="1285852" showmode="cover" timecount="5" speed="1" /> </picpage>
+</task> </surface> <surface id="56" master="true"
+name="[主播放区]隐藏区"> <task id="52" name="music.mp3_2"
+type="AUDIO" timecount="183.0" freq="1"
+key="7109731a754429672cdc45086d30679d" stufftype="AUDIO"> <playaudio> <audio
+href="/stufflib/AUDIO/bdcc9c624e62d54b9f46c4e48d9e655e.mp3"
+md5="bdcc9c624e62d54b9f46c4e48d9e655e" filename="music.mp3"
+filesize="2942204" timecount="183" /> </playaudio> </task> </surface> </unit>
+<screen name="test_1024_768_隐藏区主播放区"
+id="screen14_3ea93a022aecd8084b54140c7b3b8b8a" width="1024" height="768"
+rotator="0" fullscreen="false"> <surface id="55" name="播放区(1)"
+level="2" x="0" y="0" width="1024" height="768" alpha="255" /> <surface
+id="56" name="[主播放区]隐藏区" level="1" x="0" y="0" width="16"
+height="16" hide="true" alpha="255" /> </screen> </playlist></push>

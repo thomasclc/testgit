@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?><push dmbversion="1.0"
+sequence="terminal123456789" type="server"><playlist date="2014-03-25"
+key="4fbb3ea10d48d33505b1431222835388"> <unit id="unit52"
+name="插播字幕" playmode="INSERT" type="shiftplamp"
+key="5d185a0bcf88d1fe7e0a611eacc2be57" startdate="2014-03-25"
+enddate="2037-01-01"> <playtime> <time starttime="00:00:00"
+endtime="23:59:59" playcount="1" /> </playtime> <surface
+id="captionZone0" name="{(9fa403)}"> <task id="113"
+name="插播字幕.txt_1" type="SHIFTLAMP" freq="1"
+key="817c62e64c9fa1ec6c05f85fe97e0b28" stufftype="TXT"> <shiftlamp> <text
+bgcolor="00000000" fgcolor="ffFFFFFF" fontsize="36"
+fontname="/root/dmb/programm/font/3e20b41f97836e43b9f5d13fab964397.ttf"
+speed="1" mode="LineByLine" timecount="30"> <text
+href="/stufflib/TXT/d02c3aec33d7004fd116b7198c6800b9.txt"
+md5="d02c3aec33d7004fd116b7198c6800b9" filename="插播字幕.txt"
+filesize="84" /> </text> </shiftlamp> </task> </surface> <surface
+id="captionZone1" name="{(0f0874)}"> <task id="114"
+name="插播字幕.txt_2" type="SHIFTLAMP" freq="1"
+key="964becb2dd9f85930993926c54eb4b28" stufftype="TXT"> <shiftlamp> <text
+bgcolor="00000000" fgcolor="ffFFFFFF" fontsize="36"
+fontname="/root/dmb/programm/font/3e20b41f97836e43b9f5d13fab964397.ttf"
+speed="1" mode="LineByLine" timecount="30"> <text
+href="/stufflib/TXT/d02c3aec33d7004fd116b7198c6800b9.txt"
+md5="d02c3aec33d7004fd116b7198c6800b9" filename="插播字幕.txt"
+filesize="84" /> </text> </shiftlamp> </task> </surface> </unit> <unit
+id="unit51" name="字幕" playmode="CIRCLE"
+style="screen15_925d859f2d074489fb5c1fedff486950"
+key="0408984c07aa646bb9d96324bf48cfd0" startdate="1999-01-01"
+enddate="2037-01-01"> <playtime> <time starttime="00:00:00"
+endtime="23:59:59" playcount="1" /> </playtime> <surface
+id="captionZone0" name="字幕区(1)"> <task id="108"
+name="测试字幕.txt_3" type="SHIFTLAMP" freq="1"
+key="4f41282cf7c8e9146a63ff3583575be8" stufftype="TXT"> <shiftlamp> <text
+bgcolor="ffFFFFFF" fgcolor="ff000000" fontsize="36"
+fontname="/root/dmb/programm/font/3e20b41f97836e43b9f5d13fab964397.ttf"
+speed="1" mode="LineByLine" timecount="30"> <text
+href="/stufflib/TXT/0f5fe93e97c6a3c1f094d7f8d916223a.txt"
+md5="0f5fe93e97c6a3c1f094d7f8d916223a" filename="测试字幕.txt"
+filesize="435" /> </text> </shiftlamp> </task> </surface> <surface
+id="captionZone1" name="字幕区(2)"> <task id="110"
+name="测试字幕.txt_2" type="SHIFTLAMP" freq="1"
+key="d9171cfc8f39d9e61e87bdc9e465a04a" stufftype="TXT"> <shiftlamp> <text
+bgcolor="ffFFFFFF" fgcolor="ff000000" fontsize="36"
+fontname="/root/dmb/programm/font/3e20b41f97836e43b9f5d13fab964397.ttf"
+speed="1" mode="LineByLine" timecount="30"> <text
+href="/stufflib/TXT/0f5fe93e97c6a3c1f094d7f8d916223a.txt"
+md5="0f5fe93e97c6a3c1f094d7f8d916223a" filename="测试字幕.txt"
+filesize="435" /> </text> </shiftlamp> </task> </surface> <surface
+id="60" name="隐藏区"> </surface> <surface id="58" master="true"
+name="[主播放区]播放区(1)"> <task id="109" name="0.JPG_1.."
+type="PICPAGE" timecount="50.0" freq="1"
+key="06c2b3b2177756c8c0f203434f735c95" stufftype="IMAGE"> <picpage> <img
+href="/stufflib/IMAGE/3b3984590406a702acd19a19c11a5d9d_1024_768.png"
+md5="e3ecc865f1bc4ab5b8e36f05798aa0e4" filename="0.JPG"
+filesize="1263560" showmode="cover" timecount="5" speed="1" /> <img
+href="/stufflib/IMAGE/c36f3294e26767d9419161d377df7e3c_1024_768.png"
+md5="d4f45270bbe4c87cca8ffccb793cac35" filename="1.JPG"
+filesize="1180347" showmode="cover" timecount="5" speed="1" /> <img
+href="/stufflib/IMAGE/1a6fc0f8bd76dc14171d7b40000859d2_1024_768.png"
+md5="7dc3986c5b23dacaed61d4a1f5cf5290" filename="2.JPG"
+filesize="1177032" showmode="cover" timecount="5" speed="1" /> <img
+href="/stufflib/IMAGE/5fc90e6a8223bda73beabf6a03d1785a_1024_768.png"
+md5="a0940081386dc56655d1edc61d559a3e" filename="3.JPG"
+filesize="1184955" showmode="cover" timecount="5" speed="1" /> <img
+href="/stufflib/IMAGE/421791648dcd245aaa644655c79ab1ae_1024_768.png"
+md5="234f73eee88ed4c2124caa8af8203cd4" filename="4.JPG"
+filesize="1254376" showmode="cover" timecount="5" speed="1" /> <img
+href="/stufflib/IMAGE/1ef90c2ee498c0389ee8267dcb99a225_1024_768.png"
+md5="d1824632ef6386e2c039d52f5678de66" filename="5.JPG"
+filesize="1246344" showmode="cover" timecount="5" speed="1" /> <img
+href="/stufflib/IMAGE/d2c3fbf2a808fc56745f6d55098671f3_1024_768.png"
+md5="422b2d30ac32e0a6ca73b6f18edf9ed7" filename="6.JPG"
+filesize="1303653" showmode="cover" timecount="5" speed="1" /> <img
+href="/stufflib/IMAGE/a0ca19304cd8ab9330032c0f6618a9c4_1024_768.png"
+md5="1558e4ec6a89f7300bf1d4c07e20c7a2" filename="7.JPG"
+filesize="1205623" showmode="cover" timecount="5" speed="1" /> <img
+href="/stufflib/IMAGE/e5589466de83401180d4baf6641854f5_1024_768.png"
+md5="3ab47987845bf9fad48b0d111b98a9c0" filename="8.JPG"
+filesize="1316946" showmode="cover" timecount="5" speed="1" /> <img
+href="/stufflib/IMAGE/7ca5854b11eafbfc0f160295a030be70_1024_768.png"
+md5="bae417a2ec22277e009d22d20883ccda" filename="9.JPG"
+filesize="1285852" showmode="cover" timecount="5" speed="1" /> </picpage>
+</task> </surface> </unit> <screen name="test_1024_768_2字幕区"
+id="screen15_925d859f2d074489fb5c1fedff486950" width="1024" height="768"
+rotator="0" fullscreen="false"> <surface id="captionZone0"
+name="字幕区(1)" level="3" x="72" y="103" width="800" height="37"
+alpha="255" /> <surface id="captionZone1" name="字幕区(2)" level="4"
+x="77" y="502" width="800" height="37" alpha="255" /> <surface id="60"
+name="隐藏区" level="1" x="0" y="0" width="16" height="16" hide="true"
+alpha="255" /> <surface id="58" name="[主播放区]播放区(1)"
+level="2" x="0" y="0" width="1024" height="768" alpha="255" /> </screen> </playlist></push>

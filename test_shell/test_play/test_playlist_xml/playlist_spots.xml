@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?><push dmbversion="1.0"
+sequence="serverBOX999990" type="server"><playlist date="2013-12-31"
+key="774fa419ed4cf0071177835e184f5791"> <unit id="unit121"
+name="任务包(0000000187)" playmode="INSERT" type="shiftplamp"
+key="753e383362b081be9e133520046a6625" startdate="2001-01-01"
+enddate="2020-01-01"> <playtime> <time starttime="00:00:00"
+endtime="23:59:59" playcount="1" /> </playtime> <surface
+id="captionZone0" name="插播走马灯区域一"> <task id="1634"
+name="b.txt_1" type="SHIFTLAMP" freq="1"
+key="aaef6e3e29b3008982c001daa8c8194d" stufftype="TXT"> <shiftlamp> <text
+bgcolor="00000000" fgcolor="ffFFFFFF" fontsize="36"
+fontname="/root/dmb/programm/font/simhei.ttf" speed="6" mode="LineByLine"
+timecount="5"> <text
+href="/stufflib/TXT/12f311e1e0d2872ab87fcab57b3e0b2a.txt"
+md5="12f311e1e0d2872ab87fcab57b3e0b2a" filename="b.txt" filesize="1727" />
+</text> </shiftlamp> </task> </surface> <surface id="captionZone1"
+name="插播走马灯区域二"> <task id="1633" name="b.txt_2"
+type="SHIFTLAMP" freq="1" key="7454a65f0f39a5977cd7d959a612403a"
+stufftype="TXT"> <shiftlamp> <text bgcolor="00000000" fgcolor="ffFFFFFF"
+fontsize="36" fontname="/root/dmb/programm/font/simhei.ttf" speed="6"
+mode="LineByLine" timecount="5"> <text
+href="/stufflib/TXT/12f311e1e0d2872ab87fcab57b3e0b2a.txt"
+md5="12f311e1e0d2872ab87fcab57b3e0b2a" filename="b.txt" filesize="1727" />
+</text> </shiftlamp> </task> </surface> </unit> <unit id="unit120"
+name="任务包(0000000185)" playmode="CIRCLE"
+style="screen84_828c2e510069e22d3999dcd25fb09625"
+key="06fe6de3089063182f17d6e35cb9bf64" startdate="2001-01-01"
+enddate="2020-01-01"> <playtime> <time starttime="00:00:00"
+endtime="23:59:59" playcount="1" /> </playtime> <surface
+id="captionZone1" name="字幕区(2)"> <task id="1623" name="c.txt_3"
+type="SHIFTLAMP" freq="1" key="a1890c386d2e2f4398d2d8a1d7392d9e"
+stufftype="TXT"> <shiftlamp> <text bgcolor="00000000" fgcolor="ffFFFFFF"
+fontsize="36" fontname="/root/dmb/programm/font/simhei.ttf" speed="6"
+mode="LineByLine" timecount="5"> <text
+href="/stufflib/TXT/45982ef5da9ee76396a490a5597a4868.txt"
+md5="45982ef5da9ee76396a490a5597a4868" filename="c.txt" filesize="4347" />
+</text> </shiftlamp> </task> </surface> <surface id="captionZone0"
+name="字幕区(1)"> <task id="1622" name="a.txt_2" type="SHIFTLAMP"
+freq="1" key="227ec3affd34c03a3b188731fef3b023" stufftype="TXT"> <shiftlamp>
+<text bgcolor="00000000" fgcolor="ffFFFFFF" fontsize="36"
+fontname="/root/dmb/programm/font/simhei.ttf" speed="6" mode="LineByLine"
+timecount="5"> <text
+href="/stufflib/TXT/fd7b94cd04789953bbd9d4af521032f4.txt"
+md5="fd7b94cd04789953bbd9d4af521032f4" filename="a.txt" filesize="430" />
+</text> </shiftlamp> </task> </surface> <surface id="836" master="true"
+name="[主播放区]播放区(1)"> <task id="1624"
+name="03.月升-[55楼顶的诗].jpg_1.." type="PICPAGE" freq="1"
+key="c34eaa67849552bd543ecf90ddefb05d" stufftype="IMAGE"> <picpage> <img
+href="/stufflib/IMAGE/60303aec5b5f840a689366d410123649_1024_768.jpg"
+md5="605fc21d7c5df66415e244fd011d94ca"
+filename="03.月升-[55楼顶的诗].jpg" filesize="127886"
+showmode="cover" timecount="10" speed="6" /> <img
+href="/stufflib/IMAGE/09c15cd9d3f5359485a763ffe5842543_1024_768.jpg"
+md5="018c20a9e0690bfcd4f2bc9783ed3894"
+filename="02.日暮-[55楼顶的诗].jpg" filesize="93861"
+showmode="cover" timecount="10" speed="6" /> <img
+href="/stufflib/IMAGE/1f273e4db4afb213e808d339f75dbf30_1024_768.jpg"
+md5="2f27f722293f0330da4992892ce6b089"
+filename="01.晴空-[55楼顶的诗].jpg" filesize="164393"
+showmode="cover" timecount="10" speed="6" /> </picpage> </task> </surface>
+<surface id="837" name="隐藏区"> </surface> </unit> <screen
+name="test_play_spots" id="screen84_828c2e510069e22d3999dcd25fb09625"
+width="1024" height="768" rotator="0" fullscreen="false"> <surface
+id="captionZone1" name="字幕区(2)" level="4" x="122" y="525"
+width="800" height="36" alpha="255" /> <surface id="captionZone0"
+name="字幕区(1)" level="3" x="124" y="135" width="800" height="36"
+alpha="255" /> <surface id="836" name="[主播放区]播放区(1)"
+level="2" x="0" y="0" width="1024" height="768" alpha="255" /> <surface
+id="837" name="隐藏区" level="1" x="0" y="0" width="16" height="16"
+hide="true" alpha="255" /> </screen> </playlist></push>

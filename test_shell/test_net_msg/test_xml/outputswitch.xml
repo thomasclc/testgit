@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<push dmbversion="1.0" sequence="serverBOX000330" type="server">
+<outputswitch action="update" > 
+<output mode="hdmi1920x1080"  vom="1920x1080" mi="hdmi" type="sigma8653"/> 
+</outputswitch>
+</push>

@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?><push dmbversion="1.0"
+sequence="serverBOX999990" type="server"><playlist date="2013-12-31"
+key="58f932f0b94b4edc49155a4e593bc2db"> <unit id="unit190"
+name="任务包(0000000257)" playmode="CIRCLE"
+style="screen86_c261a70a96a270d3f1f5dc627939b9c5"
+key="04c1d9a2c504dda5d6039934b45ce838" startdate="2001-01-01"
+enddate="2020-01-01"> <playtime> <time starttime="00:00:00"
+endtime="23:59:59" playcount="1" /> </playtime> <surface
+id="captionZone0" name="字幕区(1)"> <task id="1759" name="a.txt_2"
+type="SHIFTLAMP" freq="1" key="d840e873d6e9fe8f945025df2eefaacc"
+stufftype="TXT"> <shiftlamp> <text bgcolor="00000000" fgcolor="ffFFFFFF"
+fontsize="36" fontname="/root/dmb/programm/font/simhei.ttf" speed="1"
+mode="RightToLeft" timecount="5"> <text
+href="/stufflib/TXT/fd7b94cd04789953bbd9d4af521032f4.txt"
+md5="fd7b94cd04789953bbd9d4af521032f4" filename="a.txt" filesize="430" />
+</text> </shiftlamp> </task> <task id="1760" name="a.txt_9"
+type="SHIFTLAMP" freq="1" key="addffe809d62abe85971d1b094f9a9b9"
+stufftype="TXT"> <shiftlamp> <text bgcolor="00000000" fgcolor="ffFFFFFF"
+fontsize="36" fontname="/root/dmb/programm/font/simhei.ttf" speed="6"
+mode="RightToLeft" timecount="5"> <text
+href="/stufflib/TXT/fd7b94cd04789953bbd9d4af521032f4.txt"
+md5="fd7b94cd04789953bbd9d4af521032f4" filename="a.txt" filesize="430" />
+</text> </shiftlamp> </task> </surface> <surface id="856"
+name="隐藏区"> </surface> <surface id="captionZone2"
+name="字幕区(3)"> <task id="1761" name="a.txt_5" type="SHIFTLAMP"
+freq="1" key="5ad0226f17c773c97cacdb4536ed678a" stufftype="TXT"> <shiftlamp>
+<text bgcolor="00000000" fgcolor="ffFFFFFF" fontsize="36"
+fontname="/root/dmb/programm/font/simhei.ttf" speed="1"
+mode="RightToLeft" timecount="5"> <text
+href="/stufflib/TXT/fd7b94cd04789953bbd9d4af521032f4.txt"
+md5="fd7b94cd04789953bbd9d4af521032f4" filename="a.txt" filesize="430" />
+</text> </shiftlamp> </task> <task id="1762" name="a.txt_6"
+type="SHIFTLAMP" freq="1" key="600caa25513177a15333a7e6909c1a88"
+stufftype="TXT"> <shiftlamp> <text bgcolor="00000000" fgcolor="ffFFFFFF"
+fontsize="36" fontname="/root/dmb/programm/font/simhei.ttf" speed="3"
+mode="RightToLeft" timecount="5"> <text
+href="/stufflib/TXT/fd7b94cd04789953bbd9d4af521032f4.txt"
+md5="fd7b94cd04789953bbd9d4af521032f4" filename="a.txt" filesize="430" />
+</text> </shiftlamp> </task> <task id="1763" name="a.txt_7"
+type="SHIFTLAMP" freq="1" key="41c59db449680620205fa7eed2bc9301"
+stufftype="TXT"> <shiftlamp> <text bgcolor="00000000" fgcolor="ffFFFFFF"
+fontsize="36" fontname="/root/dmb/programm/font/simhei.ttf" speed="4"
+mode="RightToLeft" timecount="5"> <text
+href="/stufflib/TXT/fd7b94cd04789953bbd9d4af521032f4.txt"
+md5="fd7b94cd04789953bbd9d4af521032f4" filename="a.txt" filesize="430" />
+</text> </shiftlamp> </task> </surface> <surface id="captionZone1"
+name="字幕区(2)"> <task id="1764" name="b.txt_3" type="SHIFTLAMP"
+freq="1" key="0bf94087514816b9091c3130b33fb295" stufftype="TXT"> <shiftlamp>
+<text bgcolor="00000000" fgcolor="ffFFFFFF" fontsize="36"
+fontname="/root/dmb/programm/font/simhei.ttf" speed="1"
+mode="RightToLeft" timecount="5"> <text
+href="/stufflib/TXT/12f311e1e0d2872ab87fcab57b3e0b2a.txt"
+md5="12f311e1e0d2872ab87fcab57b3e0b2a" filename="b.txt" filesize="1727" />
+</text> </shiftlamp> </task> <task id="1765" name="a.txt_4"
+type="SHIFTLAMP" freq="1" key="5bec898f51f00ec05a664080e482da30"
+stufftype="TXT"> <shiftlamp> <text bgcolor="00000000" fgcolor="ffFFFFFF"
+fontsize="36" fontname="/root/dmb/programm/font/simhei.ttf" speed="2"
+mode="RightToLeft" timecount="5"> <text
+href="/stufflib/TXT/fd7b94cd04789953bbd9d4af521032f4.txt"
+md5="fd7b94cd04789953bbd9d4af521032f4" filename="a.txt" filesize="430" />
+</text> </shiftlamp> </task> <task id="1766" name="b.txt_8"
+type="SHIFTLAMP" freq="1" key="9f0686a041d14684ae6dfe73087c55b0"
+stufftype="TXT"> <shiftlamp> <text bgcolor="00000000" fgcolor="ffFFFFFF"
+fontsize="36" fontname="/root/dmb/programm/font/simhei.ttf" speed="5"
+mode="RightToLeft" timecount="5"> <text
+href="/stufflib/TXT/12f311e1e0d2872ab87fcab57b3e0b2a.txt"
+md5="12f311e1e0d2872ab87fcab57b3e0b2a" filename="b.txt" filesize="1727" />
+</text> </shiftlamp> </task> </surface> <surface id="855" master="true"
+name="[主播放区]播放区(1)"> <task id="1767"
+name="01.晴空-[55楼顶的诗].jpg_1.." type="PICPAGE" freq="1"
+key="923e7cc0444807a510137561c3ddbcfa" stufftype="IMAGE"> <picpage> <img
+href="/stufflib/IMAGE/1f273e4db4afb213e808d339f75dbf30_1024_768.jpg"
+md5="2f27f722293f0330da4992892ce6b089"
+filename="01.晴空-[55楼顶的诗].jpg" filesize="164393"
+showmode="cover" timecount="20" speed="6" /> <img
+href="/stufflib/IMAGE/09c15cd9d3f5359485a763ffe5842543_1024_768.jpg"
+md5="018c20a9e0690bfcd4f2bc9783ed3894"
+filename="02.日暮-[55楼顶的诗].jpg" filesize="93861"
+showmode="cover" timecount="20" speed="6" /> <img
+href="/stufflib/IMAGE/60303aec5b5f840a689366d410123649_1024_768.jpg"
+md5="605fc21d7c5df66415e244fd011d94ca"
+filename="03.月升-[55楼顶的诗].jpg" filesize="127886"
+showmode="cover" timecount="20" speed="6" /> <img
+href="/stufflib/IMAGE/ae2df2cbdddc92d3af8e6862584d75f5_1024_768.jpg"
+md5="255cedfb0be656ad90cd139f9091fdee"
+filename="04.夜色-[55楼顶的诗].jpg" filesize="150199"
+showmode="cover" timecount="20" speed="6" /> <img
+href="/stufflib/IMAGE/6d0852a8804aa736758221512f582270_1024_768.JPG"
+md5="4dd832e9db9f60870a3e5835d97f8994" filename="1.JPG" filesize="75560"
+showmode="cover" timecount="20" speed="6" /> </picpage> </task> </surface>
+</unit> <screen name="test_play_text4"
+id="screen86_c261a70a96a270d3f1f5dc627939b9c5" width="1024" height="768"
+rotator="0" fullscreen="false"> <surface id="captionZone0"
+name="字幕区(1)" level="3" x="105" y="87" width="800" height="36"
+alpha="255" /> <surface id="856" name="隐藏区" level="1" x="0" y="0"
+width="16" height="16" hide="true" alpha="255" /> <surface
+id="captionZone2" name="字幕区(3)" level="5" x="104" y="469"
+width="800" height="36" alpha="255" /> <surface id="captionZone1"
+name="字幕区(2)" level="4" x="102" y="269" width="800" height="36"
+alpha="255" /> <surface id="855" name="[主播放区]播放区(1)"
+level="2" x="0" y="0" width="1024" height="768" alpha="255" /> </screen> </playlist></push>

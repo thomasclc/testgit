@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><push dmbversion="1.0"
+sequence="serverBOX000330" type="server"><playlist date="2013-02-26"
+key="5815442e2d5f716ca87af37eae5446b9"> <unit id="unit35"
+name="新的任务包(20130226145710970)" playmode="CIRCLE"
+style="screen12_3f8c78c0c9d1605f8af9bb963aadfa9a"
+key="175c6b6a1ac6d0027eab5a3c4a37b588" startdate="2013-02-26"
+enddate="2014-02-26"> <playtime> <time starttime="00:00:00"
+endtime="23:59:59" /> </playtime> <surface id="84" name="隐藏区"> </surface>
+<surface id="83" master="true" name="[主播放区]播放区(1)"> <task
+id="404" name="Chrysanthemum.jpg_1" type="PICPAGE" freq="1"
+key="2992d02f7d670b6fc3770a34132000f7" stufftype="IMAGE"> <picpage> <img
+href="/stufflib/IMAGE/b36924bb8c59d7f89bed2493cffb74d4_1024_768.png"
+md5="6390024792f6eac2d887def19d598442" filename="Chrysanthemum.jpg"
+filesize="1430990" showmode="cover" timecount="10" speed="1" /> </picpage>
+</task> </surface> </unit> <screen name="新的样式(20130226145534638)"
+id="screen12_3f8c78c0c9d1605f8af9bb963aadfa9a" width="1024" height="768"
+rotator="0" fullscreen="false"> <surface id="84" name="隐藏区"
+level="1" x="0" y="0" width="16" height="16" hide="true" alpha="255" /> <surface
+id="83" name="[主播放区]播放区(1)" level="2" x="0" y="0"
+width="1024" height="768" alpha="255" /> </screen> </playlist></push>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?><push dmbversion="1.0"
+sequence="server123456780" type="server"><playlist date="2014-03-26"
+key="aafd511f7dd4a97d93e873ebaf1d0198"> <unit id="unit53"
+name="实时图片" playmode="CIRCLE"
+style="screen3_629727c0085455988ae987caaff144fa"
+key="8706060d1ecf7f93ba94f02ae7f59e12" startdate="1999-01-01"
+enddate="2037-01-01"> <playtime> <time starttime="00:00:00"
+endtime="23:59:59" playcount="1" /> </playtime> <surface id="5"
+name="隐藏区"> </surface> <surface id="4" master="true"
+name="[主播放区]播放区(1)"> <task id="132" name="test_ftp_img1_5"
+type="REALTIMEPICPAGE" timecount="5.0" freq="1"
+key="de3084bbf6d707753974df97b1e14843" stufftype="REALTIMEIMG"> <realtimeimg>
+<img filename="test_ftp_img1" timecount="5" speed="1" /> </realtimeimg> </task>
+<task id="133" name="test_ftp_img2_6" type="REALTIMEPICFADE"
+timecount="5.0" freq="1" key="beab1eb7f527f11e182794fd1b0dcd3b"
+stufftype="REALTIMEIMG"> <realtimeimg> <img filename="test_ftp_img2"
+timecount="5" speed="1" /> </realtimeimg> </task> <task id="134"
+name="test_ftp_img3_7" type="REALTIMEPICSHIFT" timecount="5.0" freq="1"
+key="3f546902dd3889da68310b22ff9006d2" stufftype="REALTIMEIMG"> <realtimeimg>
+<img filename="test_ftp_img3" timecount="5" speed="1" /> </realtimeimg> </task>
+<task id="135" name="test_ftp_img4_8" type="REALTIMEPICTRANS"
+timecount="5.0" freq="1" key="ec76848a91afa5751c695a5c3ee33c6a"
+stufftype="REALTIMEIMG"> <realtimeimg> <img filename="test_ftp_img4"
+timecount="5" speed="1" /> </realtimeimg> </task> </surface> </unit> <screen
+name="test_1024_768_全屏单分屏"
+id="screen3_629727c0085455988ae987caaff144fa" width="1024" height="768"
+rotator="0" fullscreen="false"> <surface id="5" name="隐藏区"
+level="1" x="0" y="0" width="16" height="16" hide="true" alpha="255" /> <surface
+id="4" name="[主播放区]播放区(1)" level="2" x="0" y="0"
+width="1024" height="768" alpha="255" /> </screen> </playlist></push>

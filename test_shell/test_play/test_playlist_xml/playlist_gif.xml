@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?><push dmbversion="1.0"
+sequence="serverBOX999990" type="server"><playlist date="2013-12-27"
+key="b2055b89bfdcad3ee07759bb1e8eea7f"> <unit id="unit40"
+name="任务包(0000000085)" playmode="CIRCLE"
+style="screen71_8829b026fa34172f33a34c3d2b587f64"
+key="a22ccacf99f8f5bd42b75dc1408b6ad6" startdate="2000-01-01"
+enddate="2020-01-01"> <playtime> <time starttime="00:00:00"
+endtime="23:59:59" playcount="1" /> </playtime> <surface id="708"
+master="true" name="[主播放区]播放区(1)"> <task id="615"
+name="65204274201210102200193507302457430_007.gif_1.." type="PICPAGE"
+freq="1" key="75bc1e97aa44017f5976e36f056b7254" stufftype="IMAGE"> <picpage>
+<img href="/stufflib/IMAGE/cdd3d7c596c27b4d3c396d72ba656836.gif"
+md5="cdd3d7c596c27b4d3c396d72ba656836"
+filename="65204274201210102200193507302457430_007.gif" filesize="535659"
+showmode="cover" timecount="5" speed="6" /> <img
+href="/stufflib/IMAGE/7450a3bac5301dcf7994c68386bba1d0.gif"
+md5="7450a3bac5301dcf7994c68386bba1d0"
+filename="10bc73634cab9aee56e1d960.jpg.gif" filesize="1422069"
+showmode="cover" timecount="5" speed="6" /> <img
+href="/stufflib/IMAGE/ae249379e71e295023e4964222a6e553.gif"
+md5="ae249379e71e295023e4964222a6e553"
+filename="Picture_720-576_RGB_32.gif" filesize="42958" showmode="cover"
+timecount="5" speed="6" /> </picpage> </task> </surface> <surface
+id="707" name="隐藏区"> </surface> </unit> <screen
+name="test_play_gif" id="screen71_8829b026fa34172f33a34c3d2b587f64"
+width="1024" height="768" rotator="0" fullscreen="false"> <surface
+id="708" name="[主播放区]播放区(1)" level="2" x="297" y="218"
+width="400" height="300" alpha="255" /> <surface id="707"
+name="隐藏区" level="1" x="0" y="0" width="16" height="16" hide="true"
+alpha="255" /> </screen> </playlist></push>

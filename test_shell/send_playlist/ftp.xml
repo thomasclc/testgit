@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<result dmbversion="1.0" sequence="terminalBOX000031" type="terminal">
+	<ftp ip="192.168.65.110" port="21" name="starnet" password="starnet" enablessl="false" />
+</result>

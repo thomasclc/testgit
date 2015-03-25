@@ -1,0 +1,53 @@
+#!/bin/sh
+#set env
+export LD_LIBRARY_PATH=/tmp/dmb/lib/
+export CONFIG_PATH=/tmp/config/system
+export DMB_DOWNLOAD_PATH=/root/dmb/download
+export MG_CFG_PATH=/tmp/flashutils/res/minigui
+export DMB_RES_PATH=/tmp/dmb/res
+export DMB_WEB_PATH=/tmp/dmb/boa/www/cgi-bin
+export DMB_WIRELESS_WIFI_PATH=/tmp/flashutils/wireless/wifi_network
+export DMB_WIRELESS_3G_PATH=/tmp/flashutils/wireless/3g_network
+
+#check sd card
+umount /root
+/tmp/dmb/program/runcheckdisk
+
+#export TZ=UTC-08:00
+if [ -f ${CONFIG_PATH}/TZ ]
+then
+    TZ_INFO=`cat ${CONFIG_PATH}/TZ | awk '{print $1}'`
+    export TZ=${TZ_INFO}
+    echo ${TZ_INFO}
+else
+    export TZ=UTC-08:00
+fi
+
+#start the boa
+#killall -9 telnetd
+cd /tmp/dmb/boa
+./startboa
+
+#set system time from rtc
+cd /tmp/dmb/program
+./rtc S
+
+#load the driver
+#killall -9 watchdog
+./dmb_load_drv
+
+#start the dmb main
+#./dmb_main &
+#save dmb_main pid
+#DMB_MAIN_PID=$!
+
+#start wardfork
+#if [ -f wardfork ]
+#then
+#    cp wardfork /tmp/
+#    cd /tmp
+#    ./wardfork ${DMB_MAIN_PID} &
+#fi
+
+cd  /root/dmb
+./dmb_2810_test.sh &

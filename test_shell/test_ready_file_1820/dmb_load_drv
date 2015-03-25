@@ -1,0 +1,167 @@
+#!/bin/sh
+DMB_MAIN_PROGRAM=/tmp/dmb/program
+DMB_MAIN_LIB=/tmp/dmb/lib
+DMB_MAIN_LOG=/root/dmb/log
+
+#load sigma driver
+export EM8XXX_SERVER=:0
+export LD_LIBRARY_PATH=${DMB_MAIN_LIB}
+export PATH=${DMB_MAIN_PROGRAM}:$PATH
+
+retry=1
+if [ -f ${DMB_MAIN_LOG}/boot_log ]
+then
+        boot_times=`cat ${DMB_MAIN_LOG}/boot_log | awk '{print $4}'`
+        case $boot_times in *[!0-9]*|"") boot_times=0;esac
+        boot_ok=`cat ${DMB_MAIN_LOG}/boot_log | awk '{print $2}'`
+else
+        boot_times=0
+        boot_ok=0
+fi
+boot_times=`expr $boot_times + 1`
+echo "boot ${boot_ok} / ${boot_times}" > ${DMB_MAIN_LOG}/boot_log
+while [ $retry -le 6 ]
+do
+        if [ $retry -ge 5 ]
+        then
+                sysreboot
+        fi
+        retry=`expr $retry + 1`
+        rmmod em8xxx.ko
+        rmmod llad
+        sleep 1
+        insmod llad.ko
+        video_tag=0xbbbbbbbb
+        audio_tag=0xaaaaaaaa
+        demux_tag=0xdddddddd
+        ios_tag=0x00105105
+
+        #stop audio video demux
+        #audio
+        ./xkc ukill a -1
+        ./xkc ukill A -1
+        ./xkc ukill @ -1
+        #video
+        ./xkc ukill v -1
+        ./xkc ukill V -1
+        #demux
+        ./xkc ukill d -1
+        ./xkc ukill D -1
+
+        #unload video audio demux
+        ./xkc xunload ${demux_tag}
+        ./xkc xunload ${audio_tag}
+        ./xkc xunload ${video_tag}
+
+        DA=`rmmalloc 0 2340777`
+        ./xkc xload ${video_tag} video_microcode_t3iptv_prod.xload $DA 0
+        if [ $? -ne 0 ]
+        then
+            echo "insmod error1"
+            echo "insmod error 1" >> ${DMB_MAIN_LOG}/mod.log
+            date >> ${DMB_MAIN_LOG}/mod.log
+            continue
+        fi
+        ./xkc xload ${audio_tag} audio_microcode_t3iptv_prod_nodts.xload $DA 0
+        if [ $? -ne 0 ]
+        then
+            echo "insmod error2"
+            echo "insmod error 2" >> ${DMB_MAIN_LOG}/mod.log
+            date >> ${DMB_MAIN_LOG}/mod.log
+            continue
+        fi
+        ./xkc xload ${demux_tag} demuxpsf_microcode_t3iptv_prod.xload $DA 0
+        if [ $? -ne 0 ]
+        then
+            echo "insmod error3"
+            echo "insmod error 3" >> ${DMB_MAIN_LOG}/mod.log
+            date >> ${DMB_MAIN_LOG}/mod.log
+            continue
+        fi
+        rmfree 0 $DA
+
+        #start demux
+        ./xkc ustart ${demux_tag} d
+        if [ $? -ne 0 ]
+        then
+            echo "insmod error4"
+            echo "insmod error 4" >> ${DMB_MAIN_LOG}/mod.log
+            date >> ${DMB_MAIN_LOG}/mod.log
+            continue
+        fi
+        ./xkc ustart ${demux_tag} D
+        if [ $? -ne 255 ]
+        then
+            echo "insmod error5"
+            echo "insmod error 5" >> ${DMB_MAIN_LOG}/mod.log
+            date >> ${DMB_MAIN_LOG}/mod.log
+            continue
+        fi
+        #start video
+        ./xkc ustart ${video_tag} v
+        if [ $? -ne 0 ]
+        then
+            echo "insmod error6"
+            echo "insmod error 6" >> ${DMB_MAIN_LOG}/mod.log
+            date >> ${DMB_MAIN_LOG}/mod.log
+            continue
+        fi
+        ./xkc ustart ${video_tag} V
+        if [ $? -ne 255 ]
+        then
+            echo "insmod error7"
+            echo "insmod error 7" >> ${DMB_MAIN_LOG}/mod.log
+            date >> ${DMB_MAIN_LOG}/mod.log
+            continue
+        fi
+        #start audio
+        ./xkc ustart ${audio_tag} a
+        if [ $? -ne 0 ]
+        then
+            echo "insmod error8"
+            echo "insmod error 8" >> ${DMB_MAIN_LOG}/mod.log
+            date >> ${DMB_MAIN_LOG}/mod.log
+            continue
+        fi
+        ./xkc ustart ${audio_tag} A
+        if [ $? -ne 255 ]
+        then
+            echo "insmod error9"
+            echo "insmod error 9" >> ${DMB_MAIN_LOG}/mod.log
+            date >> ${DMB_MAIN_LOG}/mod.log
+            continue
+        fi
+        ./xkc ustart ${audio_tag} @
+        if [ $? -ne 255 ]
+        then
+            echo "insmod error10"
+            echo "insmod error 10" >> ${DMB_MAIN_LOG}/mod.log
+            date >> ${DMB_MAIN_LOG}/mod.log
+            continue
+        fi
+
+        ./xkc xload ${ios_tag} ios.bin.gz_t3iptv_prod.xload
+        if [ $? -ne 0 ]
+        then
+            echo "insmod error11"
+            echo "insmod error 11" >> ${DMB_MAIN_LOG}/mod.log
+            date >> ${DMB_MAIN_LOG}/mod.log
+            continue
+        fi
+
+        insmod em8xxx.ko
+        if [ $? -eq 0 ]
+        then
+            echo "insmod success"
+            echo "insmod success" >> ${DMB_MAIN_LOG}/mod.log
+            date >> ${DMB_MAIN_LOG}/mod.log
+            break
+        else
+            echo "insmod error"
+            echo "insmod error" >> ${DMB_MAIN_LOG}/mod.log
+            date >> ${DMB_MAIN_LOG}/mod.log
+        fi
+done
+boot_ok=`expr $boot_ok + 1`
+echo "boot ${boot_ok} / ${boot_times}" > /root/dmb/log/boot_log
+echo load drv finish,start dmb at `date` >> /root/dmb/times.txt

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><push dmbversion="1.0" sequence="server900000100" type="server"><playlist date="2014-03-24" key="6c740adcaa4a3a05705807e98dbf4365">
+            <unit id="unit1589" name="任务包(0000002768)" playmode="CIRCLE" style="screen14_f2b75c9fc3bcc01168d5550d6952c8d2" key="aa5691dfa8e38d78e0007fd3ba210698" startdate="1994-03-24" enddate="2014-03-24">
+      <playtime>
+                              <time starttime="00:00:00" endtime="23:59:59"    />
+                        </playtime>
+            <surface id="84"    name="隐藏区">
+                                  </surface>
+            <surface id="83" master="true"   name="[主播放区]播放区(1)">
+                            <task id="32388" name="11.jpg_1"  type="PICPAGE"   freq="1" key="2e1a18a2d4d635ba4bb5016d657bee3d"   stufftype="IMAGE"  >
+                          <picpage>
+                                                <img href="/stufflib/IMAGE/8b12be1223e1b6d5630210892a230fb2_1024_7.png" md5="bf77817b6d934bfa775e2dac084839b3" filename="11.jpg" filesize="932819" showmode="cover" timecount="10"  speed="1" />
+                                          </picpage>
+                        </task>
+                          </surface>
+          </unit>
+                    <screen name="1024x768_20110307171708" id="screen14_f2b75c9fc3bcc01168d5550d6952c8d2" width="1024" height="768"  rotator="0"  fullscreen="false" >
+                  <surface id="84" name="隐藏区"  level="1" x="0" y="0" width="16" height="16"  hide="true"  alpha="255" />
+                  <surface id="83" name="[主播放区]播放区(1)"  level="2" x="0" y="0" width="1024" height="768"    alpha="255" />
+              </screen>
+      </playlist></push>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?><push dmbversion="1.0"
+sequence="server123456780" type="server"><playlist date="2014-03-25"
+key="864d022912c6f24c4d09bfad92acd78c"> <unit id="unit45" name="插播"
+playmode="INSERT" style="screen3_629727c0085455988ae987caaff144fa"
+key="dee8b200fbba261f5debee48176a0613" startdate="1999-01-01"
+enddate="2037-01-01"> <playtime> <time starttime="00:00:00"
+endtime="23:59:59" playcount="1" /> </playtime> <surface id="5"
+name="隐藏区"> </surface> <surface id="4" master="true"
+name="[主播放区]播放区(1)"> <task id="86" name="4.JPG_1"
+type="PICPAGE" timecount="5.0" freq="1"
+key="3ec9908b7f8cd4b4076852f8996b5499" stufftype="IMAGE"> <picpage> <img
+href="/stufflib/IMAGE/421791648dcd245aaa644655c79ab1ae_1024_768.png"
+md5="234f73eee88ed4c2124caa8af8203cd4" filename="4.JPG"
+filesize="1254376" showmode="cover" timecount="5" speed="1" /> </picpage>
+</task> </surface> </unit> <unit id="unit46" name="定时"
+playmode="INTIME" style="screen3_629727c0085455988ae987caaff144fa"
+key="dfaa659344404e47f7232f8bcee3ce24" startdate="1999-01-01"
+enddate="2037-01-01"> <playtime> <time starttime="00:00:00"
+endtime="23:59:59" playcount="1" /> </playtime> <surface id="5"
+name="隐藏区"> </surface> <surface id="4" master="true"
+name="[主播放区]播放区(1)"> <task id="87" name="3.JPG_2"
+type="PICPAGE" timecount="5.0" freq="1"
+key="6018f32ceb4824d6c0fb3dd7decf07e6" stufftype="IMAGE"> <picpage> <img
+href="/stufflib/IMAGE/5fc90e6a8223bda73beabf6a03d1785a_1024_768.png"
+md5="a0940081386dc56655d1edc61d559a3e" filename="3.JPG"
+filesize="1184955" showmode="cover" timecount="5" speed="1" /> </picpage>
+</task> </surface> </unit> <unit id="unit47" name="循环"
+playmode="CIRCLE" style="screen3_629727c0085455988ae987caaff144fa"
+key="5a8f60ca2c067311864a6a89a4b8c97d" startdate="1999-01-01"
+enddate="2037-01-01"> <playtime> <time starttime="00:00:00"
+endtime="23:59:59" playcount="1" /> </playtime> <surface id="5"
+name="隐藏区"> </surface> <surface id="4" master="true"
+name="[主播放区]播放区(1)"> <task id="88" name="2.JPG_3"
+type="PICPAGE" timecount="5.0" freq="1"
+key="0139ad231450ad60b39662035185cedd" stufftype="IMAGE"> <picpage> <img
+href="/stufflib/IMAGE/1a6fc0f8bd76dc14171d7b40000859d2_1024_768.png"
+md5="7dc3986c5b23dacaed61d4a1f5cf5290" filename="2.JPG"
+filesize="1177032" showmode="cover" timecount="5" speed="1" /> </picpage>
+</task> </surface> </unit> <unit id="unit48" name="垫片"
+playmode="BASE" style="screen3_629727c0085455988ae987caaff144fa"
+key="d24ea933e151717e362d6ca86b9030dc" startdate="1999-01-01"
+enddate="2037-01-01"> <playtime> <time starttime="00:00:00"
+endtime="23:59:59" playcount="1" /> </playtime> <surface id="5"
+name="隐藏区"> </surface> <surface id="4" master="true"
+name="[主播放区]播放区(1)"> <task id="98" name="1.JPG_4"
+type="PICPAGE" timecount="5.0" freq="1"
+key="b425dee691f04a90a0e1e414537d6316" stufftype="IMAGE"> <picpage> <img
+href="/stufflib/IMAGE/c36f3294e26767d9419161d377df7e3c_1024_768.png"
+md5="d4f45270bbe4c87cca8ffccb793cac35" filename="1.JPG"
+filesize="1180347" showmode="cover" timecount="5" speed="1" /> </picpage>
+</task> </surface> </unit> <screen name="test_1024_768_全屏单分屏"
+id="screen3_629727c0085455988ae987caaff144fa" width="1024" height="768"
+rotator="0" fullscreen="false"> <surface id="5" name="隐藏区"
+level="1" x="0" y="0" width="16" height="16" hide="true" alpha="255" /> <surface
+id="4" name="[主播放区]播放区(1)" level="2" x="0" y="0"
+width="1024" height="768" alpha="255" /> </screen> </playlist></push>

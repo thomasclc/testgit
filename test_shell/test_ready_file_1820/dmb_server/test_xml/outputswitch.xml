@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<push dmbversion="1.0" sequence="serverBOX000330" type="server">
+<outputswitch action="update" > 
+<output mode="vga800x600"  vom="800x600" mi="hdmi" type="sigma8653"/> 
+</outputswitch>
+</push>
